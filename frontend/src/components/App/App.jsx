@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import Promo from '../Promo/Promo';
 import AboutMe from '../AboutMe/AboutMe';
 import Footer from '../Footer/Footer';
-import Ad from '../Ad/Ad';
+import Add from '../Add/Add';
 import Stage from '../Stage/Stage';
 import Warning from '../Warning/Warning';
 import Consultation from '../Consultation/Consultation';
@@ -22,7 +22,7 @@ export default function App() {
       <Quote />
       <AboutMe />
       <Diploma />
-      <Ad />
+      <Add />
       <Stage />
       <Consultation />
       <Warning />
