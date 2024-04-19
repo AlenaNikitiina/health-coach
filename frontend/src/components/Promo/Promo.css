@@ -31,7 +31,12 @@
 .promo__paragraph {
   margin: 40px 0 0 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 25px;
+}
+.promo__paragraph-p {
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 25px;
 }
 
 .promo__link {
@@ -81,6 +86,10 @@
     margin: 20px 0 15px;
   }
   .promo__paragraph {
+    font-size: 12px;
+    margin: 20px 0 0;
+  }
+  .promo__paragraph-p {
     font-size: 12px;
     margin: 20px 0 0;
   }
