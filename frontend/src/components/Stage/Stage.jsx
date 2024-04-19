@@ -1,6 +1,6 @@
 import '../Stage/Stage.css';
-import one from '../../images/one.JPG';
-import two from '../../images/two.JPG';
+import salad from '../../images/salad.jpg';
+import lemons from '../../images/lemons.jpg';
 
 export default function Stage() {
   return (
@@ -10,7 +10,7 @@ export default function Stage() {
       <div className='stage__content'>
 
         <article className='stage__text'>
-          <img className='stage__imgf' src={one} alt='мое фото' />
+          <img className='stage__imgf' src={salad} alt='мое фото' />
           <div className='stage__listf'>
             <h2 className='stage__subtitle'>(1)&nbsp;Знакомство</h2>
             <p className='stage__paragraph'>Вы заполняете анкету, чтобы я могла лучше вас узнать. Если ваш запрос входит в мою компетенцию, то мы договариваемся о дате и времени первичной консультации. Первичная консультация-20 минут, она бесплатная. Время для того, чтобы познакомиться и понять подходим ли мы друг другу. Я тезисно рассказываю о моей работе исходя из ваших запросов и если мы понимаем, что нас всё устраивает, то работаем дальше и выбираем дальнейший путь.</p>
@@ -18,7 +18,7 @@ export default function Stage() {
         </article>
 
         <article className='stage__text'>
-          <img className='stage__imgt' src={two} alt='мое фото' />
+          <img className='stage__imgt' src={lemons} alt='мое фото' />
           <div className='stage__listt'>
             <h2 className='stage__subtitle'>(2)&nbsp;Анализ вашего состояния</h2>
             <p className='stage__paragraph'>Совместно мы проведем анализ вашего текущего состояния и в зависимости от ваших запросов мы выбираем 3 пути: -консультативная помощь.-групповое ведение.-индивидуальное сопровождение.Я не даю консультации тем, у кого имеются тяжелые и среднетяжелые формы расстройства пищевого поведения. Это вопрос, который требует специализированной помощи врача психиатра и стационарного лечения. Я не работаю с беременными, детьми, женщинами на грудном вскармливании и профессиональными спортсменами.</p>

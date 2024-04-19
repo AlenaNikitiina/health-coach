@@ -1,6 +1,6 @@
 import './AboutMe.css';
 //import eda from '../../images/eda.JPG';
-import three from '../../images/three.JPG';
+import book from '../../images/book.jpg';
 import me from '../../images/me.jpg'
 
 export default function AboutMe() {
@@ -9,7 +9,7 @@ export default function AboutMe() {
       <div className='about-me__content'>
 
         <article className='about-me__text'>
-          <img className='about-me__img' src={three} alt='девушка выбирает молоко' />
+          <img className='about-me__img' src={book} alt='девушка выбирает молоко' />
           <h2 className='about-me__title'>Обо мне</h2>
           <div>
             <p className='about-me__paragraph'>Меня зовут Дарья Литуева, я квалифицированный врач анестезиолог-реаниматолог. В 2016г. закончила Северо-Западный Медицинский Университет им. И.И.Мечникова в г.Санкт-Петербурге. Также имею высшее образование по специальности “Психолог-педагог” Российского Государственного Педагогического Университета им.Герцена. В 2023г. прошла профессиональную переподготовку по специальности “Нутрициология”и “Health-коучинг”. </p>

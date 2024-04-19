@@ -1,6 +1,6 @@
 import '../Promo/Promo.css';
 //import daria from '../../images/daria.jpg';
-import promo from '../../images/promo.JPG';
+import promo from '../../images/promo.jpg';
 
 export default function Promo() {
   return (

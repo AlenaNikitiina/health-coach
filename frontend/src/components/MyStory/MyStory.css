@@ -9,3 +9,22 @@
   display: flex;
   flex-direction: column;
 }
+
+.MyStory__heading {
+  margin: 0 auto 40px;
+  padding: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 38px;
+  color: black;
+}
+
+.MyStory__img {
+  max-height: 400px;
+  width: 350px;
+  box-sizing: border-box;
+}
+.p {
+  display: flex;
+  flex-direction: row;
+}

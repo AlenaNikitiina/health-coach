@@ -1,5 +1,5 @@
 import './Diploma.css';
-import eda from '../../images/eda.JPG';
+import lemons from '../../images/lemons.jpg';
 
 export default function Diploma () {
   return (
@@ -8,13 +8,13 @@ export default function Diploma () {
         <h2 className='diploma__heading'>Мои дипломы</h2>
         <ul className='diploma__docs link'>
           <li>
-            <img className='diploma__photo' src={eda} alt="медицинсоке образование" />
+            <img className='diploma__photo' src={lemons} alt="медицинсоке образование" />
           </li>
           <li>
-            <img className='diploma__photo'src={eda} alt="курс нутрициолога" />
+            <img className='diploma__photo'src={lemons} alt="курс нутрициолога" />
           </li>
           <li>
-            <img className='diploma__photo'src={eda} alt="курс нутрициолога" />
+            <img className='diploma__photo'src={lemons} alt="курс нутрициолога" />
           </li>
         </ul>
       </div>
