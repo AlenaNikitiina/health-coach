@@ -18,14 +18,17 @@
   font-weight: 400;
 }
 
-.diploma__docs {
+.diploma__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .diploma__photo {
+  margin: 15px;
   max-height: 300px;
   width: 250px;
 }
