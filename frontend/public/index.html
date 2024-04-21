@@ -23,5 +23,28 @@
   <body class="body">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    
+    <div class='popup'>
+      <span>&times;</span>
+      <img src='../../frontend/src/images/book.jpg' alt="" />
+    </div>
+
+    
+    <!--image popup-->
+    <script>
+      document.querySelectorAll('diploma diploma__list img').forEach(img => {
+        img.onclick = () => {
+          print(img, diploma);
+          document.querySelector('.popup').style.display = 'block';
+          document.querySelector('.popup img').src = img.getAttribute('src');
+        }
+      });
+
+      document.querySelector('.popup span').onclick = () => {
+        document.querySelector('.popup').style.display = 'none';
+      }
+    </script>
+
   </body>
 </html>
