@@ -1,6 +1,36 @@
-import './Diploma.css';
-//import lemons from '../../images/lemons.jpg';
+/*import './Diploma.css';
+import React from "react";
+import Card from '../Card/Card';
+//import list from '../list/list.js';
+//main
 
+export default function Diploma ({cards, onCardClick}) {
+  return (
+    <section className="elements" aria-label="всплывающее окно с картинкой">
+        <h2 className='diploma__heading'>Мои дипломы</h2>
+
+        <ul className="elements__list">
+          {cards.map(card => {
+            return (
+              <Card
+                card={card}
+                key={card._id}
+                name={card.name}
+                link={card.link}
+                onCardClick={onCardClick}
+              />
+            )
+          })}
+        
+        </ul>
+    </section>
+  )
+};
+*/
+
+
+
+import './Diploma.css';
 import coach from '../../images/coach.jpg';
 import psyho from '../../images/psyho.jpg';
 import doctor from '../../images/doctor.jpg';
@@ -17,6 +47,7 @@ export default function Diploma () {
           <li className='diploma__img'>
             <img className='diploma__photo' src={doctor} alt="диплом о медицинском образовании" />
           </li>
+        
           <li className='diploma__img'>
             <img className='diploma__photo'src={psyho} alt="диплом об образовании психолога" />
           </li>
@@ -31,12 +62,6 @@ export default function Diploma () {
           </li>
         </ul>
       </div>
-
-      <div class='popup'>
-      <span>&times;</span>
-      <img src='nutri.jpg' alt="" />
-    </div>
-    
     </section>
   )
 };

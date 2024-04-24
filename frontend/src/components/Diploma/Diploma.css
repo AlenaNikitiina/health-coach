@@ -21,10 +21,12 @@
 .diploma__list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0 auto;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .diploma__photo {
@@ -35,6 +37,14 @@
   transition: .5s;
 }
 
+.diploma__img {
+  width: 300px;
+  height: 220px;
+  border: 10px solid black;
+  overflow: hidden;
+}
+
+
 @media screen and (max-width: 1024px) {
   .diploma__heading {
     font-size: 24px;
@@ -42,14 +52,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .diploma__content {
+    width: calc(100% - 2* 20px);
+  }
   .diploma__heading {
     font-size: 20px;
   }
+  .diploma__img {
+    width: 200px;
+    height: 150px;
+  }
 }
 
-/* contaner = diploma  img -contaber = diploma_ list
-*/
-
+/*
 .diploma .diploma__list {
   display: flex;
   justify-content: center;
@@ -88,7 +103,7 @@
   width: 500px;
 }
 
-/*крустик*/
+крустик
 .diploma .popup span {
   position: fixed;
   top: 10px;
@@ -103,3 +118,4 @@
   border-radius: 50%;
   cursor: pointer;
 }
+*/
