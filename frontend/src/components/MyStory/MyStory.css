@@ -3,7 +3,7 @@
 }
 
 .MyStory__content {
-  width: calc(100% - 2* 70px);
+  width: calc(100% - 2* 140px);
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 .MyStory__heading {
-  margin: 0 auto 40px;
+  margin: 40px auto;
   padding: 0;
   text-align: center;
   font-weight: 400;
@@ -21,10 +21,26 @@
 
 .MyStory__img {
   max-height: 400px;
-  width: 350px;
   box-sizing: border-box;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: var(--text-grey) 5px 5px 10px;
 }
-.p {
+
+.MyStory__s {
+  padding: 40px 0 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.MyStory__t {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.MyStory__parag {
+  padding: 20px;
+  margin: 0;
 }

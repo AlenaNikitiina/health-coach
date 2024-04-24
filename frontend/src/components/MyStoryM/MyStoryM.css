@@ -1,0 +1,24 @@
+.MyStoryM {
+  padding: 0;
+  background-color: var(--light-grey);
+}
+
+.MyStoryM__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.MyStoryM__m {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+.MyStoryM__photo {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding: 40px 0;
+  align-items: center;
+  justify-content: space-between;
+}
