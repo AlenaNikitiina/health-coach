@@ -1,0 +1,26 @@
+.MyStoryC {
+  padding: 0;
+  background-color: var(--light-grey);
+}
+
+.MyStoryC__img {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+  justify-content: space-around;
+}
+
+.MyStoryC__i {
+  max-width: 500px;
+  padding: 0;
+  object-fit: cover;
+
+}
+
+
+.MyStoryC__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0;
+}

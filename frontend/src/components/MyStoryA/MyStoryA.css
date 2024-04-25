@@ -1,0 +1,24 @@
+.MyStoryA {
+  padding: 0;
+  background-color: var(--light-grey);
+}
+
+.MyStoryA__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.MyStoryA__m {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+.MyStoryA__photo {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding: 40px 0;
+  align-items: center;
+  justify-content: space-between;
+}

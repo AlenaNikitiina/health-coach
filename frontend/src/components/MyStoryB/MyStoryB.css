@@ -1,0 +1,10 @@
+.MyStoryB {
+  padding: 0;
+}
+
+.MyStoryB__text {
+  display: flex;
+  flex-direction: row;
+  column-gap: 70px;
+  padding: 40px 0;
+}
