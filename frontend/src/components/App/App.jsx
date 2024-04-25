@@ -9,6 +9,7 @@ import Warning from '../Warning/Warning';
 import Consultation from '../Consultation/Consultation';
 import Diploma from '../Diploma/Diploma';
 import Quote from '../Quote/Quote';
+import Gallery from '../Gallery/Gallery.jsx';
 
 import MyStory from '../MyStory/MyStory';
 import MyStoryA from '../MyStoryA/MyStoryA.jsx';
@@ -18,7 +19,6 @@ import './App.css';
 
 import { useState } from "react";
 import ImagePopup from '../ImagePopup/ImagePopup.js';
-import Gallery from '../Gallery/Gallery.jsx';
 
 //import { Route, Routes } from 'react-router-dom';
 
@@ -57,9 +57,13 @@ export default function App() {
       <Stage />
       <Consultation />
       <Warning />
+      <Footer />
+      <MyStory />
+      <MyStoryA />
+      <MyStoryB />
+      <MyStoryC />
       <Gallery />
       <Footer />
-
 
       <ImagePopup
         card={selectedCard}
@@ -73,8 +77,3 @@ export default function App() {
   )
 }
 
-/*
-      <MyStory />
-      <MyStoryA />
-      <MyStoryB />
-      <MyStoryC />*/

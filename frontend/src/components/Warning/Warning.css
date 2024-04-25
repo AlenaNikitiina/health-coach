@@ -64,6 +64,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .warning {
+    padding: 50px 0;
+  }
   .warning__content {
     width: calc(100% - 2 * 20px);
   }
@@ -75,7 +78,7 @@
     "parag";
   }
   .warning__img {
-    max-height: 400px;
+    max-height: 350px;
   }
   .warning__title {
     font-size: 20px;
