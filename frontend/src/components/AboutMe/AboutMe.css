@@ -83,10 +83,10 @@
   .about-me__text {
     margin: 50px 0 0;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "img"
-    "title"
-    "parag";
+    grid-template-areas:
+    'img'
+    'title'
+    'parag';
     gap: 10px;
   }
   .about-me__title {
@@ -97,6 +97,8 @@
   }
   .about-me__img {
     max-height: 400px;
+    max-width: 400px;
+    justify-self: center;
   }
 }
 

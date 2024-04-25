@@ -11,13 +11,14 @@ import Diploma from '../Diploma/Diploma';
 import Quote from '../Quote/Quote';
 
 import MyStory from '../MyStory/MyStory';
-import MyStoryM from '../MyStoryM/MyStoryM.jsx';
-import MyStoryrI from '../MyStoryI/MyStoryI.jsx';
-import MyStoryN from '../MyStoryN/MyStoryN.jsx';
+import MyStoryA from '../MyStoryA/MyStoryA.jsx';
+import MyStoryB from '../MyStoryB/MyStoryB.jsx';
+import MyStoryC from '../MyStoryC/MyStoryC.jsx';
 import './App.css';
 
 import { useState } from "react";
 import ImagePopup from '../ImagePopup/ImagePopup.js';
+import Gallery from '../Gallery/Gallery.jsx';
 
 //import { Route, Routes } from 'react-router-dom';
 
@@ -56,11 +57,9 @@ export default function App() {
       <Stage />
       <Consultation />
       <Warning />
+      <Gallery />
       <Footer />
-      <MyStory />
-      <MyStoryM />
-      <MyStoryrI />
-      <MyStoryN />
+
 
       <ImagePopup
         card={selectedCard}
@@ -73,3 +72,9 @@ export default function App() {
     </div>
   )
 }
+
+/*
+      <MyStory />
+      <MyStoryA />
+      <MyStoryB />
+      <MyStoryC />*/
