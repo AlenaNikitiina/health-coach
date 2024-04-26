@@ -30,6 +30,20 @@
   box-shadow: var(--text-grey) 5px 5px 10px;
 }
 
+.bluberry {
+  background-image: url(../../images/blu.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  top: -5px;
+  left: -224px;
+  z-index: -1;
+}
+
 @media screen and (max-width: 1180px) {
   .myStoryB {
     padding: 20px 0;
@@ -41,6 +55,12 @@
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 100%;
+  }
+  .bluberry {
+    height: 350px;
+    width: 265px;
+    top: -27px;
+    left: -144px;
   }
 }
 

@@ -1,12 +1,13 @@
 import '../Header/Header.css';
-import { NavLink } from 'react-router-dom';
+import '../Head/Head.css';
+import { Link } from 'react-router-dom';
 
 export default function Head () {
 
   return (
-    <header className="header">
+    <header className="head">
       <section className="header__content">
-        <NavLink to='/' className='header__button button'>На главную</NavLink>
+        <Link to='/' className='header__button button'>На главную</Link>
       </section>
     </header>
   )

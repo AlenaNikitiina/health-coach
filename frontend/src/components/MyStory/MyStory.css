@@ -8,6 +8,21 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.lemon {
+  background-image: url(../../images/lemon.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  position: absolute;
+  height: 568px;
+  width: 600px;
+  top: -135px;
+  right: 0;
+  z-index: -1;
 }
 
 .myStory__heading {
@@ -51,7 +66,7 @@
 
 @media screen and (max-width: 1024px) {
   .myStory__content {
-    width: calc(100% - 2* 40px);
+    width: calc(100% - 2 * 40px);
   }
 }
 
@@ -59,8 +74,12 @@
   .myStory {
     padding: 40px 0;
   }
-  .myStory__content {
-    width: calc(100% - 2* 20px);
+  .myStory__heading {
+    margin: 15px auto;
+  }
+  .lemon {
+    width: 730px;
+    top: -150px;
   }
   .myStory__blocks {
     flex-direction: column;

@@ -7,6 +7,7 @@ export default function MyStoryB () {
   return (
     <section className='myStoryB'>
       <div className='myStory__content'>
+      <div className='bluberry'></div>
 
       <div className='myStoryB__blocks'>
         <div className='myStoryB__text'>

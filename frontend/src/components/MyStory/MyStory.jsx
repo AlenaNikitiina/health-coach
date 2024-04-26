@@ -5,8 +5,8 @@ export default function MyStory () {
   return (
     <section className='myStory'>
       <div className='myStory__content'>
+        <div className='lemon'></div>
         <h1 className='myStory__heading'>Моя история</h1>
-
         <div className='myStory__blocks'>
           <div className='myStory__text'>
             <p className='myStory__parag'> Я имею определенный багаж знаний и умений в области медицины, психологии и нутрициологии. Но с другой стороны-я обычный человек со своими страхами и вопросами. И самый главный вопрос-это здоровое отношение к жизни. Но к этому вопросу я шла весьма долго и интересно. Наверное.</p>
@@ -14,7 +14,6 @@ export default function MyStory () {
           </div>
           <img src={meme} className='myStory__img' alt="" />
         </div>
-
     </div>
     </section>
   )
