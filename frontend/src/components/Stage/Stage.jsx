@@ -4,7 +4,7 @@ import lemons from '../../images/withlemons.jpg';
 
 export default function Stage() {
   return (
-    <section id='stage' className='stage'>
+    <section className='stage'>
       <h2 className='stage__heading'>Этапы работы</h2>
       <div className='stage__content'>
 
@@ -28,4 +28,4 @@ export default function Stage() {
       </div>
     </section>
   )
-}
+};

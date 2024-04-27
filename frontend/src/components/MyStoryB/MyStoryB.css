@@ -5,13 +5,12 @@
 .myStoryB__blocks {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 25px;
 }
 
 .myStoryB__text {
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
 }
 
 .myStoryB__photo {

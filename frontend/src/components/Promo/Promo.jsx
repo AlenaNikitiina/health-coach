@@ -1,5 +1,5 @@
 import '../Promo/Promo.css';
-import promo from '../../images/promo.jpg';
+import promo from '../../images/promo.JPG';
 
 export default function Promo() {
   return (

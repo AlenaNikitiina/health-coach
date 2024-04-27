@@ -7,7 +7,6 @@ export default function Header () {
     <header className='header'>
       <section className="header__content">
         <Link to='/mystory' className='header__button button'>Моя история</Link>
-        <a className='header__button button' href="#stage">Этапы работы</a>
         <a className='header__button button' href="#price">Услуги</a>
         <a className='header__button button' href="#">Отзывы</a>
       </section>

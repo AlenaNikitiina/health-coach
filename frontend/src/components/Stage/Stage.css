@@ -95,6 +95,9 @@
 }
 
 @media screen and (max-width: 728px) {
+  .stage__content {
+    width: calc(100% - 2 * 20px);
+  }
   .stage__text {
     grid-template-areas:
     'listfirst'
