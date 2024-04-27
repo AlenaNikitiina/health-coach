@@ -89,9 +89,6 @@
   .stage__heading {
     font-size: 24px;
   }
-  .stage__subtitle {
-    min-height: 0;
-  }
   .stage__paragraph {
     font-size: 16px;
   }
@@ -118,6 +115,7 @@
   }
   .stage__subtitle {
     font-size: 18px;
+    display: inline;
   }
   .stage__paragraph {
     font-size: 14px;

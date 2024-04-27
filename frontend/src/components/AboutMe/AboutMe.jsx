@@ -1,15 +1,14 @@
 import './AboutMe.css';
-//import eda from '../../images/eda.JPG';
 import book from '../../images/book.jpg';
-import me from '../../images/me.jpg'
+import me from '../../images/me.jpg';
 
-export default function AboutMe() {
+export default function AboutMe () {
   return (
     <section className='about-me'>
       <div className='about-me__content'>
 
         <article className='about-me__text'>
-          <img className='about-me__img' src={book} alt='девушка выбирает молоко' />
+          <img className='about-me__img' src={book} alt='стоит девушка в зеленом пиджаке' />
           <h2 className='about-me__title'>Обо мне</h2>
           <div>
             <p className='about-me__paragraph'>Меня зовут Дарья Литуева, я квалифицированный врач анестезиолог-реаниматолог. В 2016г. закончила Медицинский Университет. Также имею высшее образование по специальности “Психолог-педагог”. А в 2023г. прошла профессиональную переподготовку по специальности “Нутрициология”и “Health-коучинг”.</p>
@@ -25,10 +24,10 @@ export default function AboutMe() {
           <img className='about-me__img' src={me} alt='девушка пишет в ежедневник' />
           <h2 className='about-me__title'>Образование</h2>
           <div>
-            <p className='about-me__paragraph'>Первое высшие образование, 2013г Российский государственный педагогический университет им. А. И. Герцена психолог-педагог. Фото диплома.</p>
+            <p className='about-me__paragraph'>Мое первое высшие образование я получила в 2013 году. Российский государственный педагогический университет им. А. И. Герцена психолог-педагог.</p>
             <p className='about-me__paragraph'>Второе высшие образование Северо-Западный государственный медицинский университет им. И. И. Мечникова, 2016 г. Второе - врач, лечебный факультет.</p>
             <p className='about-me__paragraph'>Московский областной научно-исследовательский клинический институт имени М. Ф. Владимирского, 2018 г. Ординатура - анестезиолог-реаниматолог.</p>
-            <p className='about-me__paragraph'>Институт Интегративной Нутрициологии IFN, курс “Нутрициология”, 2023 г..</p>
+            <p className='about-me__paragraph'>Институт Интегративной Нутрициологии IFN, курс “Нутрициология”, 2023 г.</p>
             <p className='about-me__paragraph'>Университет Образовательной Медицины, программа “Превентивное и персонализированное управление здоровьем” Health-коучинг, 2023г.</p>
           </div>
         </article>

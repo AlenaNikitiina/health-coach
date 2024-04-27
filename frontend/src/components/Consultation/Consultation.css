@@ -55,8 +55,9 @@
   font-size: 18px;
 }
 
-.consultation__item { padding: 0 0 0 10px }
-.consultation__span { font-weight: 600 }
+.consultation__item { 
+  padding: 0 0 0 10px
+}
 
 .consultation__price {
   margin: 30px 0 0;
@@ -111,7 +112,7 @@
     padding: 15px;
     font-size: 22px;
   }
-  .consultation__colomn{
+  .consultation__colomn {
     padding: 15px;
   }
   .consultation__text {
@@ -123,7 +124,6 @@
   .consultation__content {
     flex-direction: column;
   }
-  /* width: calc(100% - 2 * 20px);*/
   .consultation__title {
     font-size: 18px;
   }
