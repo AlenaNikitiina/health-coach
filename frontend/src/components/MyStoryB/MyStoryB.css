@@ -1,0 +1,85 @@
+.myStoryB {
+  padding: 70px 0;
+}
+
+.myStoryB__blocks {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.myStoryB__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.myStoryB__photo {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  align-items: center;
+}
+.myStoryB__img {
+  max-height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  object-fit: cover;
+  align-items: center;
+  align-self: center;
+  box-shadow: var(--text-grey) 8px 8px 10px;
+}
+
+.bluberry {
+  background-image: url(../../images/blu.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  top: -5px;
+  left: -224px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1180px) {
+  .myStoryB {
+    padding: 20px 0;
+  }
+  .myStoryB__blocks {
+    flex-direction: column;
+  }
+  .myStoryB__photo {
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+  }
+  .bluberry {
+    height: 350px;
+    width: 265px;
+    top: -27px;
+    left: -144px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .myStoryB__photo {
+    flex-direction: row;
+    max-height: 300px;
+  }
+  .myStoryB__img {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 220px;
+    max-height: 250px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .myStoryB__img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}

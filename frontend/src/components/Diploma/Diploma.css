@@ -1,0 +1,128 @@
+.diploma {
+  padding: 70px 0;
+}
+
+.diploma__content {
+  width: calc(100% - 2 * 70px);
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.diploma__heading {
+  margin: 0 auto 40px;
+  padding: 0;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.diploma__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.diploma__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.diploma__img {
+  width: 300px;
+  height: 220px;
+  border: 10px solid black;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .diploma {
+    padding: 0 0 50px;
+  }
+  .diploma__heading {
+    font-size: 24px;
+  }
+  .diploma__img {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .diploma__content {
+    width: calc(100% - 2* 20px);
+  }
+  .diploma__heading {
+    font-size: 20px;
+  }
+  .diploma__img {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+/*
+.diploma .diploma__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.diploma .diploma__list .diploma__img {
+  width: 300px;
+  height: 220px;
+  border: 10px solid black;
+  overflow: hidden;
+}
+
+.diploma .diploma__list .diploma__img:hover img {
+ transform: scale(1.1)
+}
+
+.diploma .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  display: none;
+}
+
+.diploma .popup img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid white 5px;
+  width: 500px;
+}
+
+крустик
+.diploma .popup span {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: white;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+*/

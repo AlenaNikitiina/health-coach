@@ -1,0 +1,36 @@
+.myStoryC {
+  padding: 70px 0;
+  background-color: var(--light-grey);
+}
+
+@media screen and (max-width: 768px) {
+  .myStoryC {
+    padding: 40px 0;
+  }
+}
+
+/* was .myStoryC {
+  padding: 70px 0;
+  background-color: var(--light-grey);
+}
+
+.myStoryC__img {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+  justify-content: space-around;
+}
+
+.myStoryC__i {
+  max-width: 500px;
+  padding: 0;
+  object-fit: cover;
+
+}
+
+.myStoryC__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0;
+}*/

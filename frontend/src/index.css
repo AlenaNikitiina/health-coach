@@ -1,0 +1,25 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+.body {
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --green: #2f562f;
+  --light-green: rgb(83, 180, 101);
+  --light-grey: #F2F2F2;
+  --text-grey: #A0A0A0;
+  --light-black : #2a2c2f;
+}

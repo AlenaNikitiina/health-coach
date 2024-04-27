@@ -1,0 +1,123 @@
+.stage {
+  padding: 70px 0;
+  background-color: var(--light-grey);
+}
+
+.stage__content {
+  width: calc(100% - 2 * 70px);
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.stage__heading {
+  margin: 0 auto 40px;
+  padding: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.stage__subtitle {
+  color: var(--text-grey);
+  margin: 10px 0;
+  padding: 0;
+  font-size: 20px;
+  min-height: 45px;
+}
+
+.stage__paragraph {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.stage__text {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  ' listfirst imgfirst'
+  'imgsecond listsecond';
+  column-gap: 100px;
+  row-gap: 40px;
+  margin: 0;
+}
+
+.stage__imgfirst {
+  grid-area: imgfirst;
+  max-height: 370px;
+  margin: 0;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: var(--text-grey) 8px 8px 10px;
+}
+.stage__imgsecond {
+  grid-area: imgsecond;
+  max-height: 370px;
+  margin: 0;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: var(--text-grey) 8px 8px 10px;
+}
+
+.stage__listfirst {
+  grid-area: listfirst;
+  margin: 0;
+  padding: 15px;
+  border-radius: 5%;
+  border: 2px solid var(--text-grey);
+  box-shadow: var(--text-grey) 4px 4px 5px;
+}
+.stage__listsecond {
+  grid-area: listsecond;
+  margin: 0;
+  padding: 15px;
+  border: 2px solid var(--text-grey);
+  border-radius: 5%;
+  box-shadow: var(--text-grey) 4px 4px 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .stage {
+    padding: 50px 0px;
+  }
+  .stage__text {
+    column-gap: 30px;
+  }
+  .stage__content {
+    width: calc(100% - 2 * 40px);
+  }
+  .stage__heading {
+    font-size: 24px;
+  }
+  .stage__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .stage__text {
+    grid-template-areas:
+    'listfirst'
+    'imgfirst'
+    'listsecond'
+    'imgsecond';
+    row-gap: 15px;
+    column-gap: 40px;
+  }
+  .stage__imgfirst {
+    max-height: 350px;
+  }
+  .stage__imgsecond {
+    max-height: 350px;
+  }
+  .stage__heading {
+    font-size: 22px;
+  }
+  .stage__subtitle {
+    font-size: 18px;
+    display: inline;
+  }
+  .stage__paragraph {
+    font-size: 14px;
+  }
+}
