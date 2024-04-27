@@ -45,7 +45,7 @@
   height: 700px;
   border-radius: 10px;
   object-fit: cover;
-  box-shadow: var(--text-grey) 5px 5px 10px;
+  box-shadow: var(--text-grey) 8px 8px 10px;
 }
 
 .about-me__text-r {
