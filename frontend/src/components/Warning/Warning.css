@@ -37,7 +37,7 @@
 .warning__paragraph {
   grid-area: parag;
   margin: 0;
-  padding: 10px;
+  padding: 10px 0;
   font-size: 18px;
   color: var(--white);
 }
@@ -84,6 +84,6 @@
     font-size: 20px;
   }
   .warning__paragraph {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
