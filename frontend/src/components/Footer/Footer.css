@@ -36,7 +36,7 @@
   font-weight: 400;
 }
 
-.footer__nav-links {
+.footer__nav-li {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -49,10 +49,17 @@
   display: inline-block;
 }
 
+.footer__nav-links {
+  display: flex;
+  flex-direction: row;
+  width: 106px;
+  align-self: center;
+}
+
 .footer__social-icon {
   margin-right: 8px;
-  height: 15px;
-  width: 15px;
+  height: 18px;
+  width: 19px;
   background-color: var(--white);
 }
 
