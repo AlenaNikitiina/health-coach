@@ -12,6 +12,7 @@
   font-weight: 400;
   background-color: var(--white);
   color: var(--black);
+  min-width: 0;
 }
 
 :root {
@@ -22,4 +23,5 @@
   --light-grey: #F2F2F2;
   --text-grey: #A0A0A0;
   --light-black : #2a2c2f;
+  min-width: 0;
 }

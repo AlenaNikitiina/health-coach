@@ -5,6 +5,13 @@ import Card from '../Card/Card';
 //main
 
 export default function Diploma ({cards, onCardClick}) {
+
+  const card = {
+    id: [1,2,3,4,5],
+    title: ['диплом о медицинском образовании', 'диплом об образовании психолога', 'диплом о завершении ординатуры', 'курс ментора', 'курс нутрициолога'],
+    image: [coach, psyho, doctor, moniki, nutri],
+  }
+
   return (
     <section className="elements" aria-label="всплывающее окно с картинкой">
         <h2 className='diploma__heading'>Мои дипломы</h2>
