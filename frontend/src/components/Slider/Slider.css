@@ -1,0 +1,36 @@
+.slider__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  margin: auto 0 20px auto;
+}
+
+.slider-wrap {
+}
+
+.slider {
+  display: flex;
+  gap: 15px;
+}
+
+.slide {
+  flex: 1;
+  flex-grow: 1;
+  height: 400px;
+  outline: 1px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .3s;
+}
+.slide.active {
+  flex-grow: 3;
+  box-shadow: 2px 3px 3px black;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

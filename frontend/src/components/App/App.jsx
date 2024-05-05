@@ -11,6 +11,8 @@ import Consultation from '../Consultation/Consultation';
 import Diploma from '../Diploma/Diploma';
 import Quote from '../Quote/Quote';
 import Gallery from '../Gallery/Gallery.jsx';
+//import Slider from '../Slider/Slider.jsx';
+import { Content } from '../Content/Content.js';
 
 import MyStory from '../MyStory/MyStory';
 import MyStoryA from '../MyStoryA/MyStoryA.jsx';
@@ -75,6 +77,7 @@ export default function App() {
             <Stage />
             <Consultation />
             <Warning />
+            <Content />
             <Footer />
 
             <ImagePopup
