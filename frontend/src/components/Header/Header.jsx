@@ -8,7 +8,7 @@ export default function Header () {
       <section className="header__content">
         <Link to='/mystory' className='header__button button'>Моя история</Link>
         <a className='header__button button' href="#price">Услуги</a>
-        <a className='header__button button' href="#">Отзывы</a>
+        <a className='header__button button' href="#reviews">Отзывы</a>
       </section>
     </header>
   );

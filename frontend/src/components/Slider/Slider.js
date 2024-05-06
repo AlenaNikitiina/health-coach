@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import './Slider.css';
+import { useState } from 'react';
 import { IconButton } from '../IconButton/IconButton';
 
 export const Slider = ({children}) => {
@@ -27,12 +27,10 @@ export const Slider = ({children}) => {
     <div className='slider-wrap'>
   
       <div className='slider__actions'>
-        <h1>IconButton</h1>
         <IconButton direction="left"
         className='icon-button'
           onClick={prev}
           disable={activeId === 0}
-          
         />
         <IconButton direction="right"
           onClick={next}

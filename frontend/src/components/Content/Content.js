@@ -1,23 +1,32 @@
-import { Slider } from '../Slider/Slider';
 import './Content.css';
+import { Slider } from '../Slider/Slider';
 
-import a from '../../images/IMG_5059.JPG';
-import b from '../../images/IMG_5069.JPG';
-import c from '../../images/IMG_5274.JPG';
-import d from '../../images/IMG_5269.JPG';
+import review from '../../images/review.jpg';
+import reviewOne from '../../images/reviewOne.jpg';
+import reviewOn from '../../images/reviewOn.jpg';
+import reviewO from '../../images/reviewO.jpg';
+import reviewOnee from '../../images/reviewOnee.jpg';
+import reviewtwo from '../../images/reviewtwo.jpg';
+import reviewTw from '../../images/reviewTw.jpg';
+import reviewT from '../../images/reviewT.jpg';
 
 export const Content = () => {
 
   return (
-    <div className='content'>
-      <Slider>
-        <img src={a} alt="1" />
-        <img src={b} alt="2" />
-        <img src={d} alt="4" />
-        <img src={c} alt="3" />
-        <img src={d} alt="4" />
-        <img src={a} alt="1" />
-      </Slider>
-    </div>
+    <section id='reviews' className='content'>
+      <h2 className='content__heading'>Отзывы</h2>
+      <div className='content__content'>
+        <Slider>
+          <img src={reviewO} alt="1" />
+          <img src={reviewOne} alt="2" />
+          <img src={reviewOn} alt="4" />
+          <img src={review} alt="3" />
+          <img src={reviewOnee} alt="3" />
+          <img src={reviewtwo} alt="4" />
+          <img src={reviewTw} alt="1" />
+          <img src={reviewT} alt="1" />
+        </Slider>
+      </div>
+    </section>
   );
 }

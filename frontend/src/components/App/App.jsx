@@ -76,8 +76,8 @@ export default function App() {
             <Add />
             <Stage />
             <Consultation />
-            <Warning />
             <Content />
+            <Warning />
             <Footer />
 
             <ImagePopup

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 15px;
-  margin: auto 0 20px auto;
+  margin: 0 auto 30px;
 }
 
 .slider-wrap {
@@ -17,20 +17,20 @@
 .slide {
   flex: 1;
   flex-grow: 1;
-  height: 400px;
-  outline: 1px solid red;
+  height: 380px;
   border-radius: 10px;
   overflow: hidden;
   transition: .3s;
 }
 .slide.active {
   flex-grow: 3;
-  box-shadow: 2px 3px 3px black;
+  width: 100%;
+  box-shadow: 5px 5px 12px grey;
 }
 
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
