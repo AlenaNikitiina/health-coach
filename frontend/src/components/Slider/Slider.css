@@ -1,5 +1,5 @@
 .slider {
-  padding: 50px 0 70px;
+  padding: 30px 0 70px;
 }
 
 .slider__content {
@@ -30,14 +30,16 @@
   align-items: center;
 }
 
+/*
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+}*/
 
 .slider__img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -47,34 +49,14 @@
   display: block;
   border-radius: 10px;
   overflow: hidden;
-  height: 240px;
+  height: 250px;
 }
 
 .slider__navigation {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-
-.slider__btn {
-  height: 45px;
-  width: 45px;
-  border: none;
-  outline: none;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.slider__btn:hover {
-  opacity: .8;
-}
-.btnp {
-  background: url(../../images/Left.svg) center / 100% 100% no-repeat;
-}
-.btnn {
-  background: url(../../images/Right.svg) center / 100% 100% no-repeat;
-}
-.swiper-button-disabled {
-  opacity: .4;
-  cursor: default;
+  margin: 30px 0;
 }
 
 .slider__pagination {
@@ -84,77 +66,63 @@
   gap: 15px;
 }
 
-/*import './Slider.css';
+.slider__btn {
+  height: 55px;
+  width: 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 
-import review from '../../images/review.jpg';
-import reviewOne from '../../images/reviewOne.jpg';
-import reviewOn from '../../images/reviewOn.jpg';
-import reviewO from '../../images/reviewO.jpg';
-import reviewOnee from '../../images/reviewOnee.jpg';
-import reviewtwo from '../../images/reviewtwo.jpg';
-import reviewTw from '../../images/reviewTw.jpg';
-import reviewT from '../../images/reviewT.jpg';
+.btnprev {
+  background: url('../../images/Left.svg') center / 100% 100% no-repeat;
+}
+.btnnext {
+  background: url('../../images/Right.svg') center / 100% 100% no-repeat;
+}
 
-export default function Slider () {
+.btnprev:hover {
+  background: url('../../images/Left_active.svg') center / 100% 100% no-repeat;
+}
+.btnnext:hover {
+  background: url('../../images/Right_active.svg') center / 100% 100% no-repeat;
+}
 
-  return (
-    <div class="slider">
-      <h2 className='slider__heading'>Отзывы</h2>
-      <div className='slider__content'>
-        
-        <div className='slider__navigation'>
-          <button className='slider__btn btnp slider__btn-prev'></button>
-          <div class="slider__pagination"></div>
-          <button className='slider__btn btnn slider__btn-next'></button>
-        </div>
+.swiper-button-disabled {
+  opacity: .4;
+  cursor: default;
+  pointer-events: none;
+}
 
-        <div class="swiper slider-swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href='image/reviewO.jpg'>
-              <img className='slider__img' src={reviewO} alt="1" />
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href="image/reviewOne.jpg">
-              <img className='slider__img' src={reviewOne} alt="2" />
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href="images/reviewOn.jpg">
-              <img className='slider__img' src={reviewOn} alt="4" />
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href="./images/review.jpg">
-              <img className='slider__img' src={review} alt="3" />
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href="images/reviewOnee.jpg">
-              <img className='slider__img' src={reviewOnee} alt="3" />
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href="images/reviewtwo.jpg">
-            <img className='slider__img' src={reviewtwo} alt="4" />
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href="images/reviewTw.jpg">
-              <img className='slider__img' src={reviewTw} alt="1" />
-            </a>
-          </div>
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color,var(--green))
+}
 
-          <div class="swiper-slide">
-            <a data-fslightbox="slider" className='slider__link' href="images/reviewT.jpg">
-              <img className='slider__img' src={reviewT} alt="1" />
-            </a>
-          </div>
-        </div>
-      </div>
-      </div>
 
-    </div>
-  );
-}*/
+@media screen and (max-width: 1024px) {
+  .slider {
+    padding: 30px 0 70px;
+  }
+  .slider__content {
+    width: calc(100% - 2* 40px);
+  }
+  .slider__heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    padding: 20px 0 50px;
+  }
+  .slider__content {
+    width: calc(100% - 2* 20px);
+  }
+  .slider__heading {
+    font-size: 20px;
+  }
+  .slider__navigation {
+    margin: 10px 0;
+  }
+}
