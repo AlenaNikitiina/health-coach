@@ -1,6 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/fonts.css);
 
+
 .body {
   margin: 0 auto;
   min-height: 100vh;
@@ -25,3 +26,4 @@
   --light-black : #2a2c2f;
   min-width: 0;
 }
+

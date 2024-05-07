@@ -1,90 +1,4 @@
-.slider {
-  padding: 50px 0 70px;
-}
-
-.slider__content {
-  width: calc(100% - 2 * 70px);
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.slider__heading {
-  margin: 0 auto 40px;
-  padding: 0;
-  text-align: center;
-  font-size: 38px;
-  font-weight: 400;
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.slider__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.slider__link {
-  display: block;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 240px;
-}
-
-.slider__navigation {
-  display: flex;
-  justify-content: center;
-}
-
-.slider__btn {
-  height: 45px;
-  width: 45px;
-  border: none;
-  outline: none;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.slider__btn:hover {
-  opacity: .8;
-}
-.btnp {
-  background: url(../../images/Left.svg) center / 100% 100% no-repeat;
-}
-.btnn {
-  background: url(../../images/Right.svg) center / 100% 100% no-repeat;
-}
-.swiper-button-disabled {
-  opacity: .4;
-  cursor: default;
-}
-
-.slider__pagination {
-  width: inherit;
-  text-align: center;
-  margin-top: 20px;
-  gap: 15px;
-}
-
-/*import './Slider.css';
+import './Slider.css';
 
 import review from '../../images/review.jpg';
 import reviewOne from '../../images/reviewOne.jpg';
@@ -98,10 +12,8 @@ import reviewT from '../../images/reviewT.jpg';
 export default function Slider () {
 
   return (
-    <div class="slider">
-      <h2 className='slider__heading'>Отзывы</h2>
-      <div className='slider__content'>
-        
+    <div class="container">
+      <div className='slider'>
         <div className='slider__navigation'>
           <button className='slider__btn btnp slider__btn-prev'></button>
           <div class="slider__pagination"></div>
@@ -157,4 +69,4 @@ export default function Slider () {
 
     </div>
   );
-}*/
+}

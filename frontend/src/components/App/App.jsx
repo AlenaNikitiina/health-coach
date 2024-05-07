@@ -11,8 +11,7 @@ import Consultation from '../Consultation/Consultation';
 import Diploma from '../Diploma/Diploma';
 import Quote from '../Quote/Quote';
 import Gallery from '../Gallery/Gallery.jsx';
-//import Slider from '../Slider/Slider.jsx';
-import { Content } from '../Content/Content.js';
+import Slider from '../Slider/Slider.jsx';
 
 import MyStory from '../MyStory/MyStory';
 import MyStoryA from '../MyStoryA/MyStoryA.jsx';
@@ -22,7 +21,6 @@ import Head from '../Head/Head.jsx';
 
 import { useState } from "react";
 import ImagePopup from '../ImagePopup/ImagePopup.js';
-
 import { Route, Routes } from 'react-router-dom';
 
 export default function App() {
@@ -76,7 +74,7 @@ export default function App() {
             <Add />
             <Stage />
             <Consultation />
-            <Content />
+            <Slider/>
             <Warning />
             <Footer />
 

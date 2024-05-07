@@ -8,6 +8,7 @@
     <meta name="author" content="Алёна Никитина">
     <meta name="description" content="Сайт врача нутрициолога Дарьи Литуевой"/>
     <meta name="yandex-verification" content="b2499efa5f0b2471" /> <!--подкл вэбмастер-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Консультация нутрициолога</title>
 
     <!--favicons-->
@@ -21,8 +22,39 @@
   </head>
 
   <body class="body">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+      const swiper = new Swiper(".slider-swiper", {
+          slidesPerView: 1,
+          spaceBetween: 15,
+          pagination: {
+            el: ".slider__pagination",
+            clickable: true,
+          },
+          navigation: {
+            prevEl: ".slider__btn-prev",
+            nextEl: ".slider__btn-next",
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 15,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 15,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 15,
+            },
+          },
+        });
+    </script>
+
+  <script src="../src/fslightbox.js"></script>
   </body>
   
 </html>
