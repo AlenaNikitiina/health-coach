@@ -1,6 +1,6 @@
 import './Slider.css';
 
-import review from '../../images/review.jpg';
+//import review from '../../images/review.jpg';
 import reviewOne from '../../images/reviewOne.jpg';
 import reviewOn from '../../images/reviewOn.jpg';
 import reviewO from '../../images/reviewO.jpg';
@@ -37,11 +37,6 @@ export default function Slider () {
             <div class="swiper-slide">
               <a data-fslightbox="slider" className='slider__link' href="images/reviewOn.jpg">
                 <img className='slider__img' src={reviewOn} alt="4" />
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a data-fslightbox="slider" className='slider__link' href="./images/review.jpg">
-                <img className='slider__img' src={review} alt="3" />
               </a>
             </div>
             <div class="swiper-slide">
