@@ -94,10 +94,22 @@
   }
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 768px) {
   .stage__content {
     width: calc(100% - 2 * 20px);
   }
+  .stage__paragraph {
+    font-size: 14px;
+  }
+  .stage__heading {
+    font-size: 22px;
+  }
+  .stage__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 728px) {
   .stage__text {
     grid-template-areas:
     'listfirst'
@@ -119,8 +131,5 @@
   .stage__subtitle {
     font-size: 18px;
     display: inline;
-  }
-  .stage__paragraph {
-    font-size: 14px;
   }
 }

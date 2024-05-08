@@ -117,10 +117,10 @@
     padding: 20px 0 50px;
   }
   .slider__content {
-    width: calc(100% - 2* 20px);
+    width: calc(100% - 2 * 20px);
   }
   .slider__heading {
-    font-size: 20px;
+    font-size: 22px;
   }
   .slider__navigation {
     margin: 10px 0;

@@ -91,3 +91,22 @@
     max-height: 450px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .promo__title {
+    font-size: 26px;
+  }
+  .promo__info {
+    padding: 10px 0;
+  }
+  .promo__paragraph {
+    margin: 10px 0 0;
+  }
+  .promo__paragraph:last-of-type {
+    margin: 10px 0 0;
+  }
+  .promo__link {
+    padding: 7px;
+    margin: 10px 0 6px;
+  }
+}

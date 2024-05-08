@@ -63,7 +63,7 @@
     width: calc(100% - 2* 20px);
   }
   .diploma__heading {
-    font-size: 20px;
+    font-size: 22px;
   }
   .diploma__img {
     width: 140px;
@@ -71,6 +71,15 @@
   }
 }
 
+
+@media screen and (max-width: 425px) {
+  .diploma {
+    padding: 10px 0 30px;
+  }
+  .diploma__heading {
+    font-size: 20px;
+  }
+}
 /*
 .diploma .diploma__list {
   display: flex;

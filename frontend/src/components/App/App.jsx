@@ -11,7 +11,7 @@ import Consultation from '../Consultation/Consultation';
 import Diploma from '../Diploma/Diploma';
 import Quote from '../Quote/Quote';
 import Gallery from '../Gallery/Gallery.jsx';
-import Slider from '../Slider/Slider.jsx';
+import Slider from '../Slider/Slider.js';
 
 import MyStory from '../MyStory/MyStory';
 import MyStoryA from '../MyStoryA/MyStoryA.jsx';

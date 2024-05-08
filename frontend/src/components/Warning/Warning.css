@@ -81,9 +81,15 @@
     max-height: 350px;
   }
   .warning__title {
-    font-size: 20px;
+    font-size: 22px;
   }
   .warning__paragraph {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .warning__title {
+    font-size: 20px;
   }
 }

@@ -123,6 +123,7 @@
 @media screen and (max-width: 768px) {
   .consultation__content {
     flex-direction: column;
+    width: calc(100% - 2 * 20px);
   }
   .consultation__title {
     font-size: 18px;
@@ -136,7 +137,7 @@
     padding: 0 0 0 15px;
   }
   .consultation__text {
-    padding: 0 15px;
+    padding: 0 20px;
   }
   .consultation__item {
     font-size: 14px;
@@ -150,7 +151,7 @@
     margin: 30px 15px 30px;
   }
   .consultation__heading {
-    font-size: 20px;
+    font-size: 22px;
   }
   .consultation__paragraph {
     font-size: 14px;

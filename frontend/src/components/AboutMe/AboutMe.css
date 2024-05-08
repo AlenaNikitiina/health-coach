@@ -90,7 +90,7 @@
     gap: 10px;
   }
   .about-me__title {
-    font-size: 20px;
+    font-size: 22px;
     padding: 10px 0;
   }
   .about-me__paragraph {
@@ -108,10 +108,13 @@
   .about-me {
     padding: 20px 0px 30px;
   }
+  .about-me__title {
+    font-size: 20px;
+  }
+  .about-me__text {
+    margin: 20px 0 0;
+  }
   .about-me__img {
     max-height: 310px;
-  }
-  .about-me__paragraph {
-    font-size: 12px;
   }
 }
