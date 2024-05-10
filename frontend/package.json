@@ -1,7 +1,13 @@
 {
   "name": "health-coach",
+  "author": "Alena Nikitina",
+  "description": "website lending for doctor nutriologist",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenaNikitiina/health-coach"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +18,14 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+    "devDependencies": {
+      "serve": "^11.2.0"
+    },
+    "main": "index.html",
+    "name": "swiper-responsive-breakpoints",
+    "tags": [
+      "swiper"
+    ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
