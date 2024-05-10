@@ -54,7 +54,6 @@ export default function Diploma () {
           <li className='diploma__img'>
             <img className='diploma__photo' src={doctor} alt="диплом о медицинском образовании" />
           </li>
-        
           <li className='diploma__img'>
             <img className='diploma__photo'src={psyho} alt="диплом об образовании психолога" />
           </li>

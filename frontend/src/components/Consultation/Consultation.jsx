@@ -8,7 +8,7 @@ return (
 
       <article className='consultation__colomn'>
         <div className='consultation__text'>
-          <h3 className='consultation__title'>Консультация</h3>
+          <h3 className='consultation__caption'>Консультация</h3>
           <ul className='consultation__list'>
             <li className='consultation__item'>Ответы на вопросы по коррекции здорового образа жизни, если они локальные и не требуют дальнейшей совместной работы.</li>
             <li className='consultation__item'>Решение запросов по продуктам питания, пищевой тарелки, нутрицевтиков.</li>
@@ -26,7 +26,7 @@ return (
 
       <article className='consultation__colomn'>
         <div className='consultation__text'>
-          <h3 className='consultation__title'>Групповое ведение</h3>
+          <h3 className='consultation__caption'>Групповое ведение</h3>
           <ul className='consultation__list'>
             <li className='consultation__item'>Можно позвать подругу, коллегу-вместе веселее.</li>
             <li className='consultation__item'>Беседа в общем чате со мной ежедневно в рабочие часы.</li>
@@ -49,7 +49,7 @@ return (
 
       <article className='consultation__colomn'>
         <div  className='consultation__text'>
-          <h3 className='consultation__title'>Индивидуальное сопровождение</h3>
+          <h3 className='consultation__caption'>Индивидуальное сопровождение</h3>
           <ul className='consultation__list'>
             <li className='consultation__item'>Личное консультирование ежедневно в рабочие часы.</li>
             <li className='consultation__item'>Составление индивидуального плана питания.</li>

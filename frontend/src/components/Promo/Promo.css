@@ -72,7 +72,7 @@
     align-self: center;
   }
   .promo__info {
-    padding: 20px;
+    padding: 15px 0 0;
     align-items: center;
   }
   .promo__link {
@@ -97,7 +97,7 @@
     font-size: 26px;
   }
   .promo__info {
-    padding: 10px 0;
+    padding: 10px 0 0;
   }
   .promo__paragraph {
     margin: 10px 0 0;
