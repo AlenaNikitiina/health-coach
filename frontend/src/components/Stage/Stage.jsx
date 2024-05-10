@@ -1,6 +1,6 @@
 import '../Stage/Stage.css';
 import salad from '../../images/salad.jpg';
-import lemons from '../../images/withlemons.jpg';
+import lemons from '../../images/lemons.jpg';
 
 export default function Stage() {
   return (

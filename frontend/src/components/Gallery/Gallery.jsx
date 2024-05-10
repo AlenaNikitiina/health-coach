@@ -1,12 +1,11 @@
 import '../Gallery/Gallery.css';
-
-import a from '../../images/IMG_5059.JPG';
-import b from '../../images/IMG_5069.JPG';
-import c from '../../images/IMG_5274.JPG';
-import d from '../../images/IMG_5269.JPG';
+import a from '../../images/IMG_5059.jpg';
+import b from '../../images/IMG_5069.jpg';
+import c from '../../images/IMG_5274.jpg';
+import d from '../../images/IMG_5269.jpg';
 import e from '../../images/IMG_5223.JPG';
 import f from '../../images/IMG_5205.JPG';
-import g from '../../images/IMG_5415.JPG';
+import g from '../../images/IMG_5415.jpg';
 
 export default function Gallery () {
 
