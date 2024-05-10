@@ -16,9 +16,9 @@ export default function MyStoryA () {
           </div>
 
           <div className='myStoryA__photo'>
-            <img src={prom} className='myStoryA__img' alt="девушка на выпускном" />
-            <img src={study} className='myStoryA__img' alt="девушка в университете" />
-            <img src={dance} className='myStoryA__img' alt="девушка танцует" />
+            <img src={prom} className='myStoryA__img' alt="девушка на выпускном в красном платье" />
+            <img src={study} className='myStoryA__img' alt="девушка в университете в медицинском халате" />
+            <img src={dance} className='myStoryA__img' alt="девушка танцует в желтом платье" />
           </div>
         </div>
     </div>

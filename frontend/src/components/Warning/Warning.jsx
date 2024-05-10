@@ -7,7 +7,7 @@ export default function Warning () {
       <div className='warning__content'>
 
         <article className='warning__text'>
-          <img className='warning__img' src={lenta} alt='measuring tape' />
+          <img className='warning__img' src={lenta} alt='измерительная лента' />
           <h2 className='warning__heading'>Напутствие</h2>
           <div>
             <p className='warning__paragraph'>Хочу отметить, что иногда требуется совместная работа с другими специалистами и врачами. Если я рекомендую вам консультацию у терапевта, эндокринолога или психиатра, настоятельно рекомендую вам следовать этой рекомендации. Только совместные усилия могут привести к наилучшим результатам.</p>

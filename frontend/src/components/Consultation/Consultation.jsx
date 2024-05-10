@@ -19,7 +19,7 @@ return (
 
         <div>
           <a className="consultation__link link"
-            href="https://t.me/litueva_life" target="_blank" rel='noreferrer'>Записаться<span className="service__arrow">⟶</span>
+            href="https://t.me/litueva_life" target="_blank" rel='noreferrer'>Записаться<span>⟶</span>
           </a>
         </div>
       </article>
@@ -42,7 +42,7 @@ return (
 
         <div>
           <a className="consultation__link link"
-            href="https://t.me/litueva_life" target="_blank" rel='noreferrer'>Записаться<span className="service__arrow">⟶</span>
+            href="https://t.me/litueva_life" target="_blank" rel='noreferrer'>Записаться<span>⟶</span>
           </a>
         </div>
       </article>
@@ -66,7 +66,7 @@ return (
 
         <div>
           <a className="consultation__link link"
-            href="https://t.me/litueva_life" target="_blank" rel='noreferrer'>Записаться<span className="service__arrow">⟶</span>
+            href="https://t.me/litueva_life" target="_blank" rel='noreferrer'>Записаться<span>⟶</span>
           </a>
         </div>
       </article>

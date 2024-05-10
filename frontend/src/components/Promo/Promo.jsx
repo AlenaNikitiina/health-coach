@@ -11,7 +11,7 @@ export default function Promo() {
           <p className='promo__paragraph'>Health - ментор</p>
           <a href="https://t.me/litueva_life" className="promo__link link" target="_blank" rel='noreferrer'>Записаться</a>
         </div>
-          <img className='promo__img' src={promo} alt='мое фото' />
+          <img className='promo__img' src={promo} alt='фото Дарьи на главной странице' />
       </div>
     </section>
   );
