@@ -8,13 +8,15 @@ import Consultation from "../Consultation/Consultation";
 import Slider from "../Slider/Slider";
 import Warning from "../Warning/Warning";
 
-export default function Main() {
+export default function Main({onCardClick}) {
   return (
     <main>
       <Promo />
       <Quote />
       <AboutMe />
-      <Diploma />
+      <Diploma 
+        onCardClick={onCardClick}
+      />
       <Add />
       <Stage />
       <Consultation />

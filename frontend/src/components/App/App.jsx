@@ -42,7 +42,9 @@ export default function App() {
         <Route path='/' element={
           <>
             <Header />
-            <Main />
+            <Main 
+              onCardClick={handleCardClick}
+            />
             <Footer />
 
             <ImagePopup
