@@ -9,10 +9,11 @@ import reviewtwo from "../../images/reviewtwo.jpg";
 import reviewTw from "../../images/reviewTw.jpg";
 import reviewT from "../../images/reviewT.jpg";
 
+//id="reviews"
 export default function Slider () {
 
   return (
-    <section id="reviews" className="slider">
+    <section  className="slider">
       <div className="slider__content">
         <h2 className="slider__heading">Отзывы</h2>
 

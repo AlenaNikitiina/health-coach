@@ -1,4 +1,4 @@
-import ImagePopupp from '../ImagePopup/ImagePopupp.css';
+import "./ImagePopup.css";
 
 export default function ImagePopup ( {card, onOverlayClick, onClose} ) {
   

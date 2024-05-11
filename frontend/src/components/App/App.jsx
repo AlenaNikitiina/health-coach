@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { useState } from "react";
-import ImagePopup from '../ImagePopup/ImagePopup.js';
+import ImagePopup from '../ImagePopup/ImagePopup.jsx';
 import { Route, Routes } from 'react-router-dom';
 
 import Header from '../Header/Header';
@@ -20,6 +20,7 @@ export default function App() {
 
   // для zoom
   function handleCardClick(card) {
+    console.log("handleCardClick");
     setSelectedCard(card);
   }
 
