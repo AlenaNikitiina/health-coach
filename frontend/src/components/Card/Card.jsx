@@ -20,7 +20,7 @@ export default function Card ( {card, name, link, onCardClick } ) {
             onClick={handleCardClickZoom}
           />
 
-          <h2 className="element__title">{name}</h2>
+          
         </article>
       </li>
     </div>

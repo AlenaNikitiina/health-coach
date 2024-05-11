@@ -6,7 +6,7 @@ export default function ImagePopup ( {card, onOverlayClick, onClose} ) {
     <div className={`popup popup_zoom ${card && 'popup_opened'}`} onMouseDown={onOverlayClick} >
     
       <div className="popup__box">
-        <h2>popup_zoom</h2>
+        
         <figure className="popup__figure">
           <button
             className="popup__close-button"

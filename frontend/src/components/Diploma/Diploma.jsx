@@ -1,42 +1,3 @@
-/*import './Diploma.css';
-import React from "react";
-import Card from '../Card/Card';
-//import list from '../list/list.js';
-//main
-
-export default function Diploma ({cards, onCardClick}) {
-
-  const card = {
-    id: [1,2,3,4,5],
-    title: ['диплом о медицинском образовании', 'диплом об образовании психолога', 'диплом о завершении ординатуры', 'курс ментора', 'курс нутрициолога'],
-    image: [coach, psyho, doctor, moniki, nutri],
-  }
-
-  return (
-    <section className="elements" aria-label="всплывающее окно с картинкой">
-        <h2 className='diploma__heading'>Мои дипломы</h2>
-
-        <ul className="elements__list">
-          {cards.map(card => {
-            return (
-              <Card
-                card={card}
-                key={card._id}
-                name={card.name}
-                link={card.link}
-                onCardClick={onCardClick}
-              />
-            )
-          })}
-        
-        </ul>
-    </section>
-  )
-};
-*/
-
-
-
 import './Diploma.css';
 import Card from '../Card/Card.jsx'
 import coach from '../../images/coach.jpg';
@@ -54,11 +15,13 @@ class Photo {
 }
 
 //const photos = [coach, psyho, doctor, moniki, nutri];
-const photos = [new Photo("диплом о медицинском образовании", coach),
-                new Photo("диплом об образовании психолога", psyho),
-                new Photo("диплом о завершении ординатуры", doctor),
-                new Photo("1", moniki),
-                new Photo("2",nutri)];
+const photos = [
+  new Photo("курс ментора", coach),
+  new Photo("диплом об образовании психолога", psyho),
+  new Photo("диплом о завершении ординатуры", doctor),
+  new Photo("курс нутрициолога",nutri),
+  new Photo("диплом о завершении ординатуры", moniki),
+];
 
 function closePopup () {
 }
@@ -85,8 +48,6 @@ export default function Diploma ( {onCardClick}) {
                   onCardClick={onCardClick}
                 />)
             })}
-
-
         </ul>
       </div>
     </section>
