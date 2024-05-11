@@ -10,7 +10,7 @@ import g from '../../images/IMG_5415.jpg';
 export default function Gallery () {
 
   return (
-    <section className="gallery">
+    <section className="galleryy">
       <figure class="gallery__item"><img src={f} alt="девушка держит зеленый смузи" class="gallery__image" /></figure>
       <figure class="gallery__item"><img src={b} alt="девушка сидит на рояле" class="gallery__image" /></figure>
       <figure class="gallery__item"><img src={g} alt="девушка сидит за столом и пишет в ежедневник" class="gallery__image" /></figure>
