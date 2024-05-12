@@ -14,7 +14,6 @@ class Photo {
   }
 }
 
-//const photos = [coach, psyho, doctor, moniki, nutri];
 const photos = [
   new Photo("курс ментора", coach),
   new Photo("диплом об образовании психолога", psyho),
@@ -23,14 +22,10 @@ const photos = [
   new Photo("диплом о завершении ординатуры", moniki),
 ];
 
-function closePopup () {
-}
-
-/*
 function onCardClick() {
   console.log("onCardClick()");
 }
-*/
+
 
 export default function Diploma ( {onCardClick}) {
   return (
@@ -38,7 +33,7 @@ export default function Diploma ( {onCardClick}) {
       <div className='diploma__content'>
         <h2 className='diploma__heading'>Мои дипломы</h2>
 
-        <ul className='diploma__list link'>
+        <ul className='diploma__list'>
           {photos.map(card => {
               return (
                 <Card
@@ -53,21 +48,3 @@ export default function Diploma ( {onCardClick}) {
     </section>
   )
 };
-
-/*
-<li className='diploma__img'>
-<img className='diploma__photo' src={doctor} alt="диплом о медицинском образовании" />
-</li>
-<li className='diploma__img'>
-<img className='diploma__photo'src={psyho} alt="диплом об образовании психолога" />
-</li>
-<li className='diploma__img'>
-<img className='diploma__photo'src={moniki} alt="диплом о завершении ординатуры" />
-</li>
-<li className='diploma__img'>
-<img className='diploma__photo'src={coach} alt="курс ментора" />
-</li>
-<li className='diploma__img'>
-<img className='diploma__photo'src={nutri} alt="курс нутрициолога" />
-</li>
-*/

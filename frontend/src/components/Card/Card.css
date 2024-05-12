@@ -3,8 +3,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  'element__foto '
-  'element__title';
+    'element__foto'
+    'element__title';
   border-radius: 10px;
   color: white;
 }
@@ -34,12 +34,15 @@
   color: white;
 }
 
+.elements__card {
+  list-style: none;
+}
+
 @media screen and (max-width: 1024px) {
   .element__foto {
     height: 180px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .element__foto {

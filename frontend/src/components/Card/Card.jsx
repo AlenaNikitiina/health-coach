@@ -11,17 +11,16 @@ export default function Card ( {card, name, link, onCardClick } ) {
   return (
     <div className="element-template">
       <li className="elements__card">
-        <article className="element">
 
+        <article className="element">
           <img
             className="element__foto"
             src={link}
             alt={`изображение: ${name}`}
             onClick={handleCardClickZoom}
           />
-
-          
         </article>
+      
       </li>
     </div>
   );

@@ -16,11 +16,10 @@ import Gallery from '../Gallery/Gallery.jsx';
 
 export default function App() {
   const [selectedCard, setSelectedCard] = useState (null);  // zoom при клике на фото
-  const [cards, setCards]               = useState([]); // для апи ssss
+  //const [cards, setCards]               = useState([]); // для апи ssss
 
   // для zoom
   function handleCardClick(card) {
-    console.log("handleCardClick");
     setSelectedCard(card);
   }
 
@@ -42,9 +41,7 @@ export default function App() {
         <Route path='/' element={
           <>
             <Header />
-            <Main 
-              onCardClick={handleCardClick}
-            />
+            <Main onCardClick={handleCardClick} />
             <Footer />
 
             <ImagePopup
