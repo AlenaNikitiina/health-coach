@@ -25,45 +25,42 @@ export default function Slider () {
           <button className="slider__btn btnnext slider__btn-next"></button>
         </div>
 
+
         <div className="swiper slider-swiper">
           <div className="swiper-wrapper">
 
           <div className="swiper-slide">
-            <iframe src="https://github.com/AlenaNikitiina/health-coach/blob/main/frontend/src/images/videoreview.mp4" frameborder="0"></iframe>
+            <iframe src="https://github.com/AlenaNikitiina/health-coach/blob/main/frontend/src/images/videoreview.mp4" width={300} frameborder="0"></iframe>
           </div>
+
+          <div className="swiper-slide">
+              <img className="slider__img" src="https://github.com/AlenaNikitiina/health-coach/blob/main/frontend/src/images/videoreview.mp4" alt="2" />
+            </div>
 
             <div className="swiper-slide">
               <img className="slider__img" src={reviewO} alt="1" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={reviewOne} alt="2" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={reviewOn} alt="4" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={reviewOnee} alt="3" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={reviewtwo} alt="4" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={reviewTw} alt="1" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={reviewT} alt="1" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={rew} alt="1" />
             </div>
-
             <div className="swiper-slide">
               <img className="slider__img" src={rew} alt="1" />
             </div>
