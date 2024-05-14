@@ -1,6 +1,9 @@
 import "./Slider.css";
 
-//import review from "../../images/review.jpg";
+import rew from "../../images/rew.jpg";
+import videoreview from "../../images/videoreview.mp4";
+//import videoreview2 from "../../images/videoreview2.mp4";
+
 import reviewOne from "../../images/reviewOne.jpg";
 import reviewOn from "../../images/reviewOn.jpg";
 import reviewO from "../../images/reviewO.jpg";
@@ -9,11 +12,10 @@ import reviewtwo from "../../images/reviewtwo.jpg";
 import reviewTw from "../../images/reviewTw.jpg";
 import reviewT from "../../images/reviewT.jpg";
 
-//id="reviews"
 export default function Slider () {
 
   return (
-    <section  className="slider">
+    <section id="reviews" className="slider">
       <div className="slider__content">
         <h2 className="slider__heading">Отзывы</h2>
 
@@ -26,32 +28,44 @@ export default function Slider () {
         <div className="swiper slider-swiper">
           <div className="swiper-wrapper">
 
+          <div className="swiper-slide">
+            <iframe src="https://github.com/AlenaNikitiina/health-coach/blob/main/frontend/src/images/videoreview.mp4" frameborder="0"></iframe>
+          </div>
+
             <div className="swiper-slide">
-                <img className="slider__img slider__link" src={reviewO} alt="1" />
+              <img className="slider__img" src={reviewO} alt="1" />
             </div>
 
             <div className="swiper-slide">
-                <img className="slider__img slider__link" src={reviewOne} alt="2" />
+              <img className="slider__img" src={reviewOne} alt="2" />
             </div>
 
             <div className="swiper-slide">
-                <img className="slider__img slider__link" src={reviewOn} alt="4" />
+              <img className="slider__img" src={reviewOn} alt="4" />
             </div>
 
             <div className="swiper-slide">
-                <img className="slider__img slider__link" src={reviewOnee} alt="3" />
+              <img className="slider__img" src={reviewOnee} alt="3" />
             </div>
 
             <div className="swiper-slide">
-              <img className="slider__img slider__link" src={reviewtwo} alt="4" />
+              <img className="slider__img" src={reviewtwo} alt="4" />
             </div>
 
             <div className="swiper-slide">
-                <img className="slider__img slider__link" src={reviewTw} alt="1" />
+              <img className="slider__img" src={reviewTw} alt="1" />
             </div>
 
             <div className="swiper-slide">
-                <img className="slider__img slider__link" src={reviewT} alt="1" />
+              <img className="slider__img" src={reviewT} alt="1" />
+            </div>
+
+            <div className="swiper-slide">
+              <img className="slider__img" src={rew} alt="1" />
+            </div>
+
+            <div className="swiper-slide">
+              <img className="slider__img" src={rew} alt="1" />
             </div>
             
           </div>
