@@ -15,10 +15,10 @@ class Photo {
 }
 
 const photos = [
-  new Photo("диплом коуча", coach),
   new Photo("диплом об образовании психолога", psyho),
   new Photo("диплом о завершении медицинского университета", doctor),
   new Photo("диплом нутрициолога",nutri),
+  new Photo("диплом коуча", coach),
   new Photo("диплом о завершении ординатуры", moniki),
 ];
 
