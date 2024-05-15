@@ -50,8 +50,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 431px) {
   .element__foto {
-    max-width: 210px;
+    max-width: 200px;
   }
 }
