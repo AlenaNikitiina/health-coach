@@ -1,16 +1,20 @@
 import "./Slider.css";
 
 import rew from "../../images/rew.jpg";
-import videoreview from "../../images/videoreview.mp4";
+//import videoreview from "../../images/videoreview.mp4";
 //import videoreview2 from "../../images/videoreview2.mp4";
 
 import reviewOne from "../../images/reviewOne.jpg";
 import reviewOn from "../../images/reviewOn.jpg";
-import reviewO from "../../images/reviewO.jpg";
 import reviewOnee from "../../images/reviewOnee.jpg";
-import reviewtwo from "../../images/reviewtwo.jpg";
-import reviewTw from "../../images/reviewTw.jpg";
+//import reviewtwo from "../../images/reviewtwo.jpg";
+//import reviewTw from "../../images/reviewTw.jpg";
 import reviewT from "../../images/reviewT.jpg";
+import common from "../../images/common.jpg";
+import alina from "../../images/alina.jpg";
+import ali from "../../images/ali.jpg";
+import mari from "../../images/mari.jpg";
+
 
 export default function Slider () {
 
@@ -29,16 +33,8 @@ export default function Slider () {
         <div className="swiper slider-swiper">
           <div className="swiper-wrapper">
 
-          <div className="swiper-slide">
-            <iframe src="https://github.com/AlenaNikitiina/health-coach/blob/main/frontend/src/images/videoreview.mp4" width={300} frameborder="0"></iframe>
-          </div>
-
-          <div className="swiper-slide">
-              <img className="slider__img" src="https://github.com/AlenaNikitiina/health-coach/blob/main/frontend/src/images/videoreview.mp4" alt="2" />
-            </div>
-
             <div className="swiper-slide">
-              <img className="slider__img" src={reviewO} alt="1" />
+              <img className="slider__img" src={mari} alt="1" />
             </div>
             <div className="swiper-slide">
               <img className="slider__img" src={reviewOne} alt="2" />
@@ -50,16 +46,16 @@ export default function Slider () {
               <img className="slider__img" src={reviewOnee} alt="3" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={reviewtwo} alt="4" />
-            </div>
-            <div className="swiper-slide">
-              <img className="slider__img" src={reviewTw} alt="1" />
-            </div>
-            <div className="swiper-slide">
               <img className="slider__img" src={reviewT} alt="1" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={rew} alt="1" />
+              <img className="slider__img" src={common} alt="1" />
+            </div>
+            <div className="swiper-slide">
+              <img className="slider__img" src={alina} alt="1" />
+            </div>
+            <div className="swiper-slide">
+              <img className="slider__img" src={ali} alt="1" />
             </div>
             <div className="swiper-slide">
               <img className="slider__img" src={rew} alt="1" />
@@ -72,18 +68,7 @@ export default function Slider () {
   );
 }
 
-/*import "./Slider.css";
-
-//import review from "../../images/review.jpg";
-import reviewOne from "../../images/reviewOne.jpg";
-import reviewOn from "../../images/reviewOn.jpg";
-import reviewO from "../../images/reviewO.jpg";
-import reviewOnee from "../../images/reviewOnee.jpg";
-import reviewtwo from "../../images/reviewtwo.jpg";
-import reviewTw from "../../images/reviewTw.jpg";
-import reviewT from "../../images/reviewT.jpg";
-
-export default function Slider () {
+/*export default function Slider () {
 
   return (
     <section id="reviews" className="slider">
@@ -101,36 +86,6 @@ export default function Slider () {
             <div className="swiper-slide">
               <a data-fslightbox="gallery" className="slider__link" href="image/reviewO.jpg">
                 <img className="slider__img" src={reviewO} alt="1" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a data-fslightbox="gallery" className="slider__link" href="image/reviewOne.jpg">
-                <img className="slider__img" src={reviewOne} alt="2" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a data-fslightbox="gallery" className="slider__link" href="images/reviewOn.jpg">
-                <img className="slider__img" src={reviewOn} alt="4" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a data-fslightbox="gallery" className="slider__link" href="images/reviewOnee.jpg">
-                <img className="slider__img" src={reviewOnee} alt="3" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a data-fslightbox="gallery" className="slider__link" href="images/reviewtwo.jpg">
-              <img className="slider__img" src={reviewtwo} alt="4" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a data-fslightbox="gallery" className="slider__link" href="images/reviewTw.jpg">
-                <img className="slider__img" src={reviewTw} alt="1" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a data-fslightbox="gallery" className="slider__link" href="images/reviewT.jpg">
-                <img className="slider__img" src={reviewT} alt="1" />
               </a>
             </div>
           </div>
