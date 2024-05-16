@@ -1,19 +1,16 @@
 import "./Slider.css";
 
-import rew from "../../images/rew.jpg";
-//import videoreview from "../../images/videoreview.mp4";
-//import videoreview2 from "../../images/videoreview2.mp4";
-
-import reviewOne from "../../images/reviewOne.jpg";
-import reviewOn from "../../images/reviewOn.jpg";
-import reviewOnee from "../../images/reviewOnee.jpg";
-//import reviewtwo from "../../images/reviewtwo.jpg";
-//import reviewTw from "../../images/reviewTw.jpg";
-import reviewT from "../../images/reviewT.jpg";
-import common from "../../images/common.jpg";
-import alina from "../../images/alina.jpg";
-import ali from "../../images/ali.jpg";
-import mari from "../../images/mari.jpg";
+import videoreview from "../../images/review/videoreview.mp4";
+import videoreview2 from "../../images/review/videoreview2.mp4";
+import reviewOne from "../../images/review/reviewOne.jpg";
+import reviewOn from "../../images/review/reviewOn.jpg";
+import reviewOnee from "../../images/review/reviewOnee.jpg";
+import reviewT from "../../images/review/reviewT.jpg";
+import common from "../../images/review/common.jpg";
+import alina from "../../images/review/alina.jpg";
+import ali from "../../images/review/ali.jpg";
+import mari from "../../images/review/mari.jpg";
+import rew from "../../images/review/rew.jpg";
 
 
 export default function Slider () {
@@ -28,7 +25,6 @@ export default function Slider () {
           <div className="slider__pagination"></div>
           <button className="slider__btn btnnext slider__btn-next"></button>
         </div>
-
 
         <div className="swiper slider-swiper">
           <div className="swiper-wrapper">
@@ -45,6 +41,9 @@ export default function Slider () {
             <div className="swiper-slide">
               <img className="slider__img" src={reviewOnee} alt="3" />
             </div>
+
+           
+
             <div className="swiper-slide">
               <img className="slider__img" src={reviewT} alt="1" />
             </div>
@@ -60,8 +59,14 @@ export default function Slider () {
             <div className="swiper-slide">
               <img className="slider__img" src={rew} alt="1" />
             </div>
-            
+            <div className="swiper-slide">
+              <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview} controls playsInline ></video>
+            </div>
+            <div className="swiper-slide">
+              <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview2} controls playsInline loading="lazy" preload="metadata"></video>
+            </div>
           </div>
+        
         </div>
       </div>
     </section>
@@ -93,4 +98,8 @@ export default function Slider () {
       </div>
     </section>
   );
+
+   <div className="swiper-slide">
+            <iframe className="slider__img slider__video" src={videoreview} frameborder="0" title="видеотзыв" allowFullScreen="false" loading="lazy" ></iframe>
+            </div>
 }*/

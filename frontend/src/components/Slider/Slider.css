@@ -39,6 +39,11 @@
   object-fit: contain;
 }
 
+.slider__video {
+  max-width: 280px;
+  border:  none;
+}
+
 .slider__navigation {
   display: flex;
   flex-direction: row;
@@ -115,6 +120,9 @@
   }
   .slider__navigation {
     margin: 15px 0;
+  }
+  .slider__video {
+    
   }
 }
 
