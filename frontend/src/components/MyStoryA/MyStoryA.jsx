@@ -1,8 +1,8 @@
 import '../MyStory/MyStory.css';
 import './MyStoryA.css';
-import prom from '../../images/prom.JPG';
-import dance from '../../images/dance.JPG';
-import study from '../../images/study.PNG';
+import prom from '../../images/mystory/prom.JPG';
+import dance from '../../images/mystory/dance.JPG';
+import study from '../../images/mystory/study.PNG';
 
 export default function MyStoryA () {
   return (

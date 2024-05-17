@@ -33,31 +33,31 @@ export default function Slider () {
               <img className="slider__img" src={mari} alt="1" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={reviewOne} alt="2" />
+              <img className="slider__img" src={reviewOne} alt="1" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={reviewOn} alt="4" />
+              <img className="slider__img" src={reviewOn} alt="1" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={reviewOnee} alt="3" />
+              <img className="slider__img" src={reviewOnee} alt="1" />
             </div>
 
            
 
             <div className="swiper-slide">
-              <img className="slider__img" src={reviewT} alt="1" />
+              <img className="slider__img" src={reviewT} alt="2" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={common} alt="1" />
+              <img className="slider__img" src={common} alt="3" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={alina} alt="1" />
+              <img className="slider__img" src={alina} alt="4" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={ali} alt="1" />
+              <img className="slider__img" src={ali} alt="4" />
             </div>
             <div className="swiper-slide">
-              <img className="slider__img" src={rew} alt="1" />
+              <img className="slider__img" src={rew} alt="5" />
             </div>
             <div className="swiper-slide">
               <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview} controls playsInline ></video>

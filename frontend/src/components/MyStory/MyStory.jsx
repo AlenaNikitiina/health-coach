@@ -1,5 +1,5 @@
 import '../MyStory/MyStory.css';
-import meme from '../../images/meme.jpg';
+import meme from '../../images/mystory/meme.jpg';
 
 export default function MyStory () {
   return (
