@@ -83,8 +83,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import videoreview from "../../images/review/videoreview.mp4";
-import videoreview2 from "../../images/review/videoreview2.mp4";
 import reviewOne from "../../images/review/reviewOne.jpg";
 import reviewOn from "../../images/review/reviewOn.jpg";
 import reviewOnee from "../../images/review/reviewOnee.jpg";
@@ -95,37 +93,48 @@ import ali from "../../images/review/ali.jpg";
 import mari from "../../images/review/mari.jpg";
 import rew from "../../images/review/rew.jpg";
 
-
 export default function Slider () {
-
   return (
-    <div className="container">
-    <h1 className="heading">Отзывы</h1>
-    <Swiper
-      
-      effect={'coverflow'}
-      grabCursor={true}
-      centeredSlides={true}
-      loop={true}
-      
-      slidesPerView={3}
-      
-      coverflowEffect={{
-        rotate: 0,
-        stretch: 0,
-        depth: 100,
-        modifier: 2.5,
-      }}
-      pagination={{ el: '.swiper-pagination', clickable: true }}
-      navigation={{
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        clickable: true,
-      }}
-      
-      modules={[EffectCoverflow, Pagination, Navigation]}
-      className="swiper_container"
-    >
+    <section id="reviews" className="sli">
+      <div className="container">
+      <h2 className="slider__heading">Отзывы</h2>
+
+      <Swiper
+        className="swiper_container"
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slides-per-view={5}
+        breakpoints={{
+          1440: {
+            slidesPerView: 5,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          425: {
+            slidesPerView: 2,
+          },
+        }}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }}
+        pagination={{ el: '.swiper-pagination', clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          clickable: true,
+        }}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+      >
+    
       <SwiperSlide>
         <img src={mari} alt="slide_image" />
       </SwiperSlide>
@@ -139,19 +148,6 @@ export default function Slider () {
         <img src={reviewOnee} alt="slide_image" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={reviewT} alt="slide_image" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={common} alt="slide_image" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview} controls playsInline ></video>
-      </SwiperSlide>
-      <SwiperSlide>
-        <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview2} controls playsInline loading="lazy" preload="metadata"></video>
-      </SwiperSlide>
-
-      <SwiperSlide>
         <img src={alina} alt="slide_image" />
       </SwiperSlide>
       <SwiperSlide>
@@ -160,19 +156,27 @@ export default function Slider () {
       <SwiperSlide>
         <img src={rew} alt="slide_image" />
       </SwiperSlide>
-      
+      <SwiperSlide>
+        <img src={reviewT} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={common} alt="slide_image" />
+      </SwiperSlide>
 
       <div className="slider-controler">
         <div className="swiper-button-prev slider-arrow">
           <ion-icon name="arrow-back-outline"></ion-icon>
         </div>
+       
         <div className="swiper-button-next slider-arrow">
           <ion-icon name="arrow-forward-outline"></ion-icon>
         </div>
         <div className="swiper-pagination"></div>
       </div>
+    
     </Swiper>
   </div>
+  </section>
   )
 }
 
