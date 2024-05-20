@@ -25,7 +25,7 @@ export default function Footer () {
             </li>
             <li className='footer__nav-links'>
               <a href="https://wa.me/+79165445920" className="footer__nav-link link" target="blank">
-                <img className="footer__social-icon" src={whatsapp} alt="Телеграм"/>WhatsApp</a>
+                <img className="footer__social-icon" src={whatsapp} alt="WhatsApp"/>WhatsApp</a>
             </li>
           </ul>
         </nav>

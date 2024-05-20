@@ -1,4 +1,4 @@
-import "./Slider.css";
+/*import "./Slider.css";
 
 import videoreview from "../../images/review/videoreview.mp4";
 import videoreview2 from "../../images/review/videoreview2.mp4";
@@ -72,34 +72,39 @@ export default function Slider () {
     </section>
   );
 }
+*/
 
-/*export default function Slider () {
+import ali from "../../images/review/ali.jpg";
+import reviewT from "../../images/review/reviewT.jpg";
+
+export default function Slider () {
 
   return (
-    <section id="reviews" className="slider">
-      <div className="slider__content">
-        <h2 className="slider__heading">Отзывы</h2>
 
-        <div className="slider__navigation">
-          <button className="slider__btn btnprev slider__btn-prev"></button>
-          <div className="slider__pagination"></div>
-          <button className="slider__btn btnnext slider__btn-next"></button>
-        </div>
-
-        <div className="swiper slider-swiper">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide">
-              <a data-fslightbox="gallery" className="slider__link" href="image/reviewO.jpg">
-                <img className="slider__img" src={reviewO} alt="1" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-
-   <div className="swiper-slide">
-            <iframe className="slider__img slider__video" src={videoreview} frameborder="0" title="видеотзыв" allowFullScreen="false" loading="lazy" ></iframe>
-            </div>
-}*/
+<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={ali} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={reviewT} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={ali} className="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+  )}

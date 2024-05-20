@@ -1,25 +1,39 @@
-import Swiper from 'swiper';
-import 'swiper/css';
 
-const swiper = new Swiper(".mySwiper", {
+import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
+
+const swiper = new Swiper(".slider-swiper", {
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 20,
     pagination: {
-      el: ".swiper-pagination",
+      el: ".slider__pagination",
       clickable: true,
     },
+    navigation: {
+      prevEl: ".slider__btn-prev",
+      nextEl: ".slider__btn-next",
+    },
     breakpoints: {
+      425: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
       640: {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 15,
       },
       768: {
-        slidesPerView: 4,
-        spaceBetween: 40,
+        slidesPerView: 3,
+        spaceBetween: 15,
       },
       1024: {
-        slidesPerView: 5,
-        spaceBetween: 50,
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+      1440: {
+        slidesPerView: 4,
+        spaceBetween: 15,
       },
     },
   });
+
+  export default swiper;
