@@ -74,37 +74,113 @@ export default function Slider () {
 }
 */
 
-import ali from "../../images/review/ali.jpg";
+
+import "./Slider.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+
+import videoreview from "../../images/review/videoreview.mp4";
+import videoreview2 from "../../images/review/videoreview2.mp4";
+import reviewOne from "../../images/review/reviewOne.jpg";
+import reviewOn from "../../images/review/reviewOn.jpg";
+import reviewOnee from "../../images/review/reviewOnee.jpg";
 import reviewT from "../../images/review/reviewT.jpg";
+import common from "../../images/review/common.jpg";
+import alina from "../../images/review/alina.jpg";
+import ali from "../../images/review/ali.jpg";
+import mari from "../../images/review/mari.jpg";
+import rew from "../../images/review/rew.jpg";
+
 
 export default function Slider () {
 
   return (
+    <div className="container">
+    <h1 className="heading">Отзывы</h1>
+    <Swiper
+      
+      effect={'coverflow'}
+      grabCursor={true}
+      centeredSlides={true}
+      loop={true}
+      
+      slidesPerView={3}
+      
+      coverflowEffect={{
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2.5,
+      }}
+      pagination={{ el: '.swiper-pagination', clickable: true }}
+      navigation={{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        clickable: true,
+      }}
+      
+      modules={[EffectCoverflow, Pagination, Navigation]}
+      className="swiper_container"
+    >
+      <SwiperSlide>
+        <img src={mari} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={reviewOne} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={reviewOn} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={reviewOnee} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={reviewT} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={common} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview} controls playsInline ></video>
+      </SwiperSlide>
+      <SwiperSlide>
+        <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview2} controls playsInline loading="lazy" preload="metadata"></video>
+      </SwiperSlide>
 
-<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <SwiperSlide>
+        <img src={alina} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={ali} alt="slide_image" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={rew} alt="slide_image" />
+      </SwiperSlide>
+      
+
+      <div className="slider-controler">
+        <div className="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </div>
+        <div className="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div className="swiper-pagination"></div>
+      </div>
+    </Swiper>
   </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={ali} className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={reviewT} className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={ali} className="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-  )}
+  )
+}
+
+/*
+<SwiperSlide>
+<video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview} controls playsInline ></video>
+</SwiperSlide>
+<SwiperSlide>
+<video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview2} controls playsInline loading="lazy" preload="metadata"></video>
+</SwiperSlide>
+*/
