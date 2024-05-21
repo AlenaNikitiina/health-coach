@@ -1,18 +1,19 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import { useState } from "react";
-import ImagePopup from '../ImagePopup/ImagePopup.jsx';
-import { Route, Routes } from 'react-router-dom';
+import ImagePopup from "../ImagePopup/ImagePopup.jsx";
+import { Route, Routes } from "react-router-dom";
 
-import Header from '../Header/Header';
-import Main from '../Main/Main.jsx';
-import Footer from '../Footer/Footer';
-import Head from '../Head/Head.jsx';
-import MyStory from '../MyStory/MyStory';
-import MyStoryA from '../MyStoryA/MyStoryA.jsx';
-import MyStoryB from '../MyStoryB/MyStoryB.jsx';
-import MyStoryC from '../MyStoryC/MyStoryC.jsx';
-import Gallery from '../Gallery/Gallery.jsx';
+import Header from "../Header/Header";
+import Main from "../Main/Main.jsx";
+import Footer from "../Footer/Footer";
+import Head from "../Head/Head.jsx";
+import MyStory from "../MyStory/MyStory";
+import MyStoryA from "../MyStoryA/MyStoryA.jsx";
+import MyStoryB from "../MyStoryB/MyStoryB.jsx";
+import MyStoryC from "../MyStoryC/MyStoryC.jsx";
+import Gallery from "../Gallery/Gallery.jsx";
+import NotFound from "../NotFound/NotFound.jsx";
 
 export default function App() {
   const [selectedCard, setSelectedCard] = useState (null);  // zoom при клике на фото
@@ -36,9 +37,9 @@ export default function App() {
   }
 
   return (
-    <div className='app'>
+    <div className="app">
       <Routes>
-        <Route path='/' element={
+        <Route path="/" element={
           <>
             <Header />
             <Main onCardClick={handleCardClick} />
@@ -55,7 +56,7 @@ export default function App() {
           }>
         </Route>
 
-        <Route path='/mystory' element={
+        <Route path="/mystory" element={
           <>
             <Head />
             <MyStory />
@@ -67,9 +68,9 @@ export default function App() {
           </>
           }>
         </Route>
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   )
 };
-
-//<Route path='*' element={<NotFound />} />

@@ -15,6 +15,7 @@ import alina from "../../images/review/alina.jpg";
 import ali from "../../images/review/ali.jpg";
 import mari from "../../images/review/mari.jpg";
 import rew from "../../images/review/rew.jpg";
+//import videoreview from "../../images/review/videoreview.mp4";
 
 export default function Slider () {
   return (
