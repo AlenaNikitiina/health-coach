@@ -15,7 +15,8 @@
   font-weight: 400;
   background-color: var(--white);
   color: var(--black);
-  min-width: 0;
+  /*min-width: 0*/;
+  scroll-behavior: smooth;
 }
 
 :root {
