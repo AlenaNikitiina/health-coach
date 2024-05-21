@@ -163,15 +163,12 @@ export default function Slider () {
         <img src={common} alt="slide_image" />
       </SwiperSlide>
 
-      <div className="slider-controler">
-        <div className="swiper-button-prev slider-arrow">
-          <ion-icon name="arrow-back-outline"></ion-icon>
-        </div>
-       
-        <div className="swiper-button-next slider-arrow">
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        </div>
-        <div className="swiper-pagination"></div>
+     
+
+      <div className="slider-controler slider__navigation">
+        <button className="swiper-button-prev slider-arrow slider__btn btnprev slider__btn-prev"></button>
+        <div className=" swiper-pagination"></div>
+        <button className="swiper-button-next slider-arrow slider__btn btnnext slider__btn-next"></button>
       </div>
     
     </Swiper>
@@ -187,4 +184,18 @@ export default function Slider () {
 <SwiperSlide>
 <video className="slider__img slider__video" controlsList="nofullscreen" src={videoreview2} controls playsInline loading="lazy" preload="metadata"></video>
 </SwiperSlide>
+
+
+
+ <div className="slider-controler">
+        <div className="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </div>
+       
+        <div className="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div className="swiper-pagination"></div>
+      </div>
+
 */
