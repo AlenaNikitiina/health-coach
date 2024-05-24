@@ -66,11 +66,12 @@
 }
 
 .slider-controler .slider-arrow {
-  width: 3.5rem;
+  width: 2.5rem;
   height: 2.5rem;
   top: -15px;
   left: 35%;
   transform: translateX(-42%);
+  z-index: 12;
 }
 .slider-controler .slider-arrow ion-icon {
   font-size: 2rem;
