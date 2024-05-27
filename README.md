@@ -11,13 +11,8 @@
     <img src="https://github.com/AlenaNikitiina/health-coach/blob/main/videosite.mp4" width="700" alt="запись экрана сайта">
 </div>
 
-<div align="left">
-    <img src="https://github.com/AlenaNikitiina/health-coach/blob/main/lityeva.png" width="700" alt="запись экрана сайта">
-</div>
-
 ![Image](https://github.com/AlenaNikitiina/health-coach/blob/main/lityeva.png)
 ![Image](https://github.com/AlenaNikitiina/health-coach/blob/main/litu.png)
-
 ![Image](https://github.com/AlenaNikitiina/health-coach/blob/main/li.png)
 ![Image](https://github.com/AlenaNikitiina/health-coach/blob/main/lit.png)
 ![Image](https://github.com/AlenaNikitiina/health-coach/blob/main/lituu.png)
