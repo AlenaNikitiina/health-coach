@@ -14,7 +14,7 @@
 }
 
 .consultation__heading {
-  margin: 0 auto 40px;
+  margin: 0 auto 70px;
   padding: 0;
   text-align: center;
   font-size: 38px;
@@ -35,7 +35,7 @@
   padding: 0px 15px;
 }
 
-.consultation__title {
+.consultation__caption {
   margin: 15px 0 0;
   padding: 0;
   text-align: center;
@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 1080px) {
   .consultation {
-    padding: 50px 0px;
+    padding: 50px 0;
   }
   .consultation__content {
     width: calc(100% - 2 * 40px);
@@ -100,10 +100,11 @@
     flex-wrap: wrap;
   }
   .consultation__heading {
-    font-size: 24px;
+    font-size: 26px;
+    margin: 0 auto 50px;
   }
-  .consultation__title {
-    font-size: 20px;
+  .consultation__caption {
+    font-size: 22px;
   }
   .consultation__price {
     font-size: 18px;
@@ -123,9 +124,10 @@
 @media screen and (max-width: 768px) {
   .consultation__content {
     flex-direction: column;
+    width: calc(100% - 2 * 20px);
   }
-  .consultation__title {
-    font-size: 18px;
+  .consultation__caption {
+    font-size: 20px;
   }
   .consultation__colomn {
     width: 100%;
@@ -136,7 +138,7 @@
     padding: 0 0 0 15px;
   }
   .consultation__text {
-    padding: 0 15px;
+    padding: 0 20px;
   }
   .consultation__item {
     font-size: 14px;
@@ -150,10 +152,19 @@
     margin: 30px 15px 30px;
   }
   .consultation__heading {
-    font-size: 20px;
+    font-size: 24px;
   }
   .consultation__paragraph {
     font-size: 14px;
     margin: 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .consultation {
+    padding: 30px 0;
+  }
+  .consultation__heading {
+    margin: 0 auto 30px;
   }
 }

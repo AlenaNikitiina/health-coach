@@ -1,5 +1,6 @@
 .myStoryB {
   padding: 70px 0;
+  position: relative;
 }
 
 .myStoryB__blocks {
@@ -30,16 +31,17 @@
 }
 
 .bluberry {
-  background-image: url(../../images/blu.jpg);
+  position: absolute;
+  background-image: url(../../images/mystory/fonwall.ru-nature-plant-fruit-berry-jps.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   box-sizing: border-box;
   position: absolute;
   height: 400px;
-  width: 350px;
-  top: -5px;
-  left: -224px;
+  width: 340px;
+  top: -15px;
+  left: -190px;
   z-index: -1;
 }
 
@@ -56,10 +58,10 @@
     max-width: 100%;
   }
   .bluberry {
-    height: 350px;
-    width: 265px;
-    top: -27px;
-    left: -144px;
+    height: 300px;
+    width: 210px;
+    top: -45px;
+    left: -125px;
   }
 }
 
@@ -73,6 +75,10 @@
     width: 100%;
     max-width: 220px;
     max-height: 250px;
+  }
+  .bluberry {
+    top: -50px;
+    left: -120px;
   }
 }
 

@@ -8,20 +8,21 @@
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   font-size: 18px;
   font-weight: 400;
   background-color: var(--white);
   color: var(--black);
-  min-width: 0;
+  /*min-width: 0*/;
+  scroll-behavior: smooth;
 }
 
 :root {
   --white: #FFFFFF;
-  --black: #000000;
+  --black: #2a2c2f;
   --green: #2f562f;
-  --light-green: rgb(83, 180, 101);
   --light-grey: #F2F2F2;
   --text-grey: #A0A0A0;
-  --light-black : #2a2c2f;
-  min-width: 0;
 }

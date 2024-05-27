@@ -12,7 +12,7 @@
 }
 
 .lemon {
-  background-image: url(../../images/lemon.jpg);
+  background-image: url(../../images/mystory/lemon.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -77,6 +77,7 @@
   }
   .myStory__heading {
     margin: 15px auto;
+    font-size: 30px;
   }
   .lemon {
     width: 690px;
@@ -102,7 +103,16 @@
 }
 
 @media screen and (max-width: 425px) {
+  .myStory {
+    padding: 35px 0;
+  }
+  .myStory__content {
+    width: calc(100% - 2 * 20px);
+  }
   .myStory__img {
     max-width: 200px;
+  }
+  .myStory__heading {
+    font-size: 26px;
   }
 }
