@@ -8,7 +8,7 @@
 🔗 Сайт  https://litueva-mentor.ru
 
 <div align="left">
-    <img src="https://github.com/AlenaNikitiina/health-coach/blob/main/videosite.mp4" width="700" alt="запись экрана сайта">
+    <video src="https://github.com/AlenaNikitiina/health-coach/assets/108930152/823c1974-6110-42a6-b67c-d70327f41adb" width="600" alt="запись экрана сайта" />
 </div>
 
 ![Image](https://github.com/AlenaNikitiina/health-coach/blob/main/lityeva.png)
