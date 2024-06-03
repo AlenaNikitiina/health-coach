@@ -1,31 +1,23 @@
-import React from 'react';
-import './App.css';
-import Header from '../Header/Header';
-import Promo from '../Promo/Promo';
-import AboutMe from '../AboutMe/AboutMe';
-import Footer from '../Footer/Footer';
-import Add from '../Add/Add';
-import Stage from '../Stage/Stage';
-import Warning from '../Warning/Warning';
-import Consultation from '../Consultation/Consultation';
-import Diploma from '../Diploma/Diploma';
-import Quote from '../Quote/Quote';
-import Gallery from '../Gallery/Gallery.jsx';
-
-import MyStory from '../MyStory/MyStory';
-import MyStoryA from '../MyStoryA/MyStoryA.jsx';
-import MyStoryB from '../MyStoryB/MyStoryB.jsx';
-import MyStoryC from '../MyStoryC/MyStoryC.jsx';
-import Head from '../Head/Head.jsx';
-
+import React from "react";
+import "./App.css";
 import { useState } from "react";
-import ImagePopup from '../ImagePopup/ImagePopup.js';
+import { Route, Routes } from "react-router-dom";
 
-import { Route, Routes } from 'react-router-dom';
+import Header from "../Header/Header";
+import Main from "../Main/Main.jsx";
+import Footer from "../Footer/Footer";
+import Head from "../Head/Head.jsx";
+import MyStory from "../MyStory/MyStory";
+import MyStoryA from "../MyStoryA/MyStoryA.jsx";
+import MyStoryB from "../MyStoryB/MyStoryB.jsx";
+import MyStoryC from "../MyStoryC/MyStoryC.jsx";
+import Gallery from "../Gallery/Gallery.jsx";
+import ImagePopup from "../ImagePopup/ImagePopup.jsx";
+import NotFound from "../NotFound/NotFound.jsx";
 
 export default function App() {
   const [selectedCard, setSelectedCard] = useState (null);  // zoom при клике на фото
-  const [cards, setCards]               = useState([]); // для апи ssss
+  //const [cards, setCards]               = useState([]); // для апи ssss
 
   // для zoom
   function handleCardClick(card) {
@@ -45,36 +37,12 @@ export default function App() {
   }
 
   return (
-    <div className='app'>
+    <div className="app">
       <Routes>
-
-        <Route path='/mystory' element={
-          <>
-            <Head />
-            <MyStory />
-            <MyStoryA />
-            <MyStoryB />
-            <MyStoryC />
-            <Gallery />
-            <Footer />
-          </>
-          }>
-        </Route>
-    
-        <Route path='/' element={
+        <Route path="/" element={
           <>
             <Header />
-            <Promo />
-            <Quote />
-            <AboutMe />
-            <Diploma
-              onCardClick={handleCardClick} // zoom f
-              cards = {cards}
-            />
-            <Add />
-            <Stage />
-            <Consultation />
-            <Warning />
+            <Main onCardClick={handleCardClick} />
             <Footer />
 
             <ImagePopup
@@ -88,9 +56,21 @@ export default function App() {
           }>
         </Route>
 
+        <Route path="/mystory" element={
+          <>
+            <Head />
+            <MyStory />
+            <MyStoryA />
+            <MyStoryB />
+            <MyStoryC />
+            <Gallery />
+            <Footer />
+          </>
+          }>
+        </Route>
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   )
 };
-
-//<Route path='*' element={<NotFound />} />
