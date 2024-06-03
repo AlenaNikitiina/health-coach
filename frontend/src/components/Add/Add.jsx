@@ -3,9 +3,9 @@ import food from '../../images/food.jpg';
 
 export default function Add () {
   return (
-    <section>
+    <section className='add'>
       <div className='add__content'>
-      <img className='add__img' src={food} alt="" />
+        <img className='add__img' src={food} alt="в холщевом мещке лежат овощи и фрукты" />
       </div>
     </section>
     

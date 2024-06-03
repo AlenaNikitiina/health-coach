@@ -17,6 +17,7 @@
 @media screen and (max-width: 1024px) {
   .quote {
     width: calc(100% - 2 * 40px);
+    padding: 50px 0 0;
   }
   .quote__paragraph {
     font-size: 20px;
@@ -24,9 +25,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .quote {
-    padding: 50px 0 0;
-  }
   .quote__paragraph {
     font-size: 16px;
   }

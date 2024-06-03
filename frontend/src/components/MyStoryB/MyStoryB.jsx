@@ -1,7 +1,7 @@
 import '../MyStory/MyStory.css';
 import './MyStoryB.css';
-import fa from '../../images/fa.JPG';
-import fafa from '../../images/fafa.JPG';
+import fa from '../../images/mystory/fa.JPG';
+import fafa from '../../images/mystory/fafa.JPG';
 
 export default function MyStoryB () {
   return (

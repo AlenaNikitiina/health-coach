@@ -1,6 +1,6 @@
 import '../Stage/Stage.css';
 import salad from '../../images/salad.jpg';
-import lemons from '../../images/withlemons.jpg';
+import lemons from '../../images/lemons.jpg';
 
 export default function Stage() {
   return (
@@ -9,7 +9,7 @@ export default function Stage() {
       <div className='stage__content'>
 
         <article className='stage__text'>
-          <img className='stage__imgfirst' src={salad} alt='девушка держит салад' />
+          <img className='stage__imgfirst' src={salad} alt='девушка держит салат' />
           <div className='stage__listfirst'>
             <h3 className='stage__subtitle'>(1)&nbsp;Знакомство</h3>
             <p className='stage__paragraph'>Вы заполняете анкету, чтобы я могла лучше вас узнать. Если ваш запрос входит в мою компетенцию, то мы договариваемся о дате и времени первичной консультации.</p>

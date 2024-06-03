@@ -23,7 +23,7 @@
   margin: 0;
 }
 
-.warning__title {
+.warning__heading {
   grid-area: title;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
   font-size: 34px;
   font-weight: 400;
   margin: 0;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .warning__paragraph {
@@ -55,11 +55,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .warning {
+    padding: 50px 0px;
+  }
   .warning__content {
     width: calc(100% - 2 * 40px);
   }
-  .warning__title {
-    font-size: 24px;
+  .warning__heading {
+    font-size: 26px;
   }
 }
 
@@ -80,10 +83,16 @@
   .warning__img {
     max-height: 350px;
   }
-  .warning__title {
-    font-size: 20px;
+  .warning__heading {
+    font-size: 24px;
   }
   .warning__paragraph {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .warning__heading {
+    font-size: 22px;
   }
 }
