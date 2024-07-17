@@ -12,7 +12,7 @@ return (
           <ul className='consultation__list'>
             <li className='consultation__item'>Ответы на вопросы по коррекции здорового образа жизни, если они локальные и не требуют дальнейшей совместной работы.</li>
             <li className='consultation__item'>Решение запросов по продуктам питания, пищевой тарелки, нутрицевтиков.</li>
-            <li className='consultation__item'>Рекомендации по анализам и необходимым обследованиям.</li>
+            <li className='consultation__item'>Общие рекомендации по питанию, сну, физическим нагрузкам.</li>
           </ul>
           <p className='consultation__price'>Стоимость: 2000 руб./час</p>
         </div>
@@ -53,7 +53,6 @@ return (
           <ul className='consultation__list'>
             <li className='consultation__item'>Личное консультирование ежедневно в рабочие часы.</li>
             <li className='consultation__item'>Составление индивидуального плана питания.</li>
-            <li className='consultation__item'>Сдача check-up по анализам и получение обратной связи.</li>
             <li className='consultation__item'>Контроль питания, расшифровка состава и сочетания продуктов.</li>
             <li className='consultation__item'>Рекомендации по нутрицевтикам и физической нагрузк.</li>
             <li className='consultation__item'>Техники по работе со стресс-менеджментом.</li>

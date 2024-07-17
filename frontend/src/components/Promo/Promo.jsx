@@ -7,7 +7,7 @@ export default function Promo() {
       <div className='promo__content'>
         <div className='promo__info'>
           <h1 className='promo__title'>Дарья Литуева</h1>
-          <p className='promo__paragraph'>Врач - нутрициолог</p>
+          <p className='promo__paragraph'>Нутрициолог</p>
           <p className='promo__paragraph'>Health - коуч</p>
           <a href="https://t.me/litueva_life" className="promo__link link" target="_blank" rel='noreferrer'>Записаться</a>
         </div>
