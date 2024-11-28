@@ -5,7 +5,7 @@ import psyho from '../../images/psyho.jpg';
 import doctor from '../../images/doctor.jpg';
 import moniki from '../../images/moniki.jpg';
 import nutri from '../../images/nutri.jpg';
-
+import mentor from '../../images/mentor.JPG';
 
 class Photo {
   constructor(name, link) {
@@ -20,6 +20,7 @@ const photos = [
   new Photo("диплом нутрициолога",nutri),
   new Photo("диплом коуча", coach),
   new Photo("диплом о завершении ординатуры", moniki),
+  new Photo("сертификат о прохождении курса по наставничеству", mentor),
 ];
 
 function onCardClick() {
